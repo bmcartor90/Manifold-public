@@ -1,0 +1,1167 @@
+ability_id,step,link,block,name,may,if,subject,by,count,narrow,target,amount,kind,color,symbol,showing,to face,rolled by,whose,from,to,as,bonus,paying,rest,cost,for each,action,would,instead,all if,hero,token,options,as_written,reads_back
+A0001,0,,1007,Whenever plays,may,,a Stratagem or Agreement,you,,,,,,,,,,,,,,,,,,,,,,,,,,,"Whenever you play a Stratagem or Agreement, you may put a [G] Counter on a support character you control.","Whenever plays (subject: a Stratagem or Agreement, by: you) [may]: Put a [Green] Counter on a support character you control"
+A0001,1,,2017,Put counters,,,,,1,,a support character you control,1,,Green,,,,,,,,,,,,,,,,,,,,,,
+A0002,0,,3001,Energy,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,Shield 1.,1 Energy: Shield 1
+A0002,1,,2003,Shield,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0003,0,,3001,Energy,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,Remove a Shield from any hero.,1 Energy: Remove a Shield from any hero
+A0003,1,,2016,Remove Shield,,,,,1,,any hero,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0004,0,,1007,Whenever plays,may,,a structure,you,,,,,,,,,,,,,,,,,,,,,,,,,,,"Whenever you play a structure, you may activate any character you control.","Whenever plays (subject: a structure, by: you) [may]: Activate any character you control"
+A0004,1,,2011,Activate,,,,,1,,any character you control,,,,,,,,,,,,,,,,,,,,,,,,,
+A0005,0,,3001,Energy,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,Resolve up to two dice as if they showed Physical Damage.,1 Energy: Resolve up to 2 dice as if Physical Damage
+A0005,1,,2025,Resolve as,,,,,up to 2,,,,,,,,,,,,,Physical Damage,,,,,,,,,,,,,,
+A0006,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, create a Sentinel token if you do not control a Sentinel.",When activated (subject: this) [may]: Create a Sentinel token if you do not control a Sentinel
+A0006,1,,2029,Create token,,you do not control a Sentinel,,,,,,1,,,,,,,,,,,,,,,,,,,,,Sentinel,,,
+A0007,0,,3001,Energy,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,Deal 2 damage to any hero.,"1 Energy, remove 1 White dice you control: Deal 2 damage to any hero"
+A0007,1,cost,2027,Spend dice,,,,,1,,,,,White,,,,,,,,,,,,,,,,,,,,,,
+A0007,2,then,2007,Damage,,,,,1,,any hero,2,,,,,,,,,,,,,,,,,,,,,,,,
+A0008,0,,1008,Whenever activates,may,,a character,you,,,,,,,,,,,,,,,,,,,,,,,,,,,"Whenever you activate a character, you may exhaust a Servo you control to roll [R].","Whenever activates (subject: a character, by: you) [may]: Exhaust a Servo you control to Roll [Red]"
+A0008,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0008,1.1,cost,2009,Exhaust,,,,,1,,a Servo you control,,,,,,,,,,,,,,,,,,,,,,,,,
+A0008,1.2,then,2021,Roll,,,,,,,,1,,Red,,,,,,,,,,,,,,,,,,,,,,
+A0009,0,,3001,Energy,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,Draw 2. (Discard it from play.),"1 Energy, sacrifice a Servo: Draw 2"
+A0009,1,cost,2013,Sacrifice,,,,,1,,a Servo,,,,,,,,,,,,,,,,,,,,,,,,,
+A0009,2,then,2001,Draw,,,,you,,,,2,,,,,,,,,,,,,,,,,,,,,,,,
+A0010,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may deal 1 damage to this to Modify 1 to a face showing Damage.",When activated (subject: this) [may]: Deal 1 damage to this to Modify 1 to a face showing Damage
+A0010,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0010,1.1,cost,2007,Damage,,,,,,,this,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0010,1.2,then,2005,Modify,,,,,,,,1,,,,,showing Damage,,,,,,,,,,,,,,,,,,,
+A0011,0,,3001,Energy,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,Swift,Swift - activate any character you control. (The initiative is retained after taking Swift actions.),1 Energy: Swift - Activate any character you control
+A0011,1,,2011,Activate,,,,,1,,any character you control,,,,,,,,,,,,,,,,,,,,,,,,,
+A0012,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may put a [W] Counter on a mechanical support you control.",When activated (subject: this) [may]: Put a [White] Counter on a mechanical support you control
+A0012,1,,2017,Put counters,,,,,1,,a mechanical support you control,1,,White,,,,,,,,,,,,,,,,,,,,,,
+A0013,0,,3001,Energy,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,Return a mechanical card from your discard to your hand.,"1 Energy, discard 1 card: Return 1 mechanical card from your discard to your hand"
+A0013,1,cost,2030,Discard,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0013,2,then,2035,Return from discard,,,,,1,,a mechanical card,,,,,,,,,,,,,,,,,,,,,,,,,
+A0014,0,,1008,Whenever activates,may,,a hero,an opponent,,,,,,,,,,,,,,,,,,,,,,,,,,,"Whenever an opponent activates a hero, you may activate this.","Whenever activates (subject: a hero, by: an opponent) [may]: Activate this"
+A0014,1,,2011,Activate,,,,,,,this,,,,,,,,,,,,,,,,,,,,,,,,,
+A0015,0,,3001,Energy,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,Roll [R].,1 Energy: Roll [Red]
+A0015,1,,2021,Roll,,,,,,,,1,,Red,,,,,,,,,,,,,,,,,,,,,,
+A0016,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may play a mechanical card with this paying (R) towards it.",When activated (subject: this) [may]: Play a mechanical card with this paying (R) towards it
+A0016,1,,2041,Play,,,,you,1,,a mechanical card,,,,,,,,,your hand,,,,(R),,,,,,,,,,,,
+A0017,0,,3001,Energy,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,Modify 1.,1 Energy: Modify 1
+A0017,1,,2005,Modify,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0018,0,,3001,Energy,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,Swift,Swift - activate a structure you control. (The initiative is retained after taking Swift actions.),1 Energy: Swift - Activate a structure you control
+A0018,1,,2011,Activate,,,,,1,,a structure you control,,,,,,,,,,,,,,,,,,,,,,,,,
+A0019,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, look at the top three cards of any player's deck. You may discard one, then put the rest back in any order.","When activated (subject: this) [may]: Look at the top 3 cards of any player's deck, discard up to one of them, then put the rest back on top"
+A0019,1,,2032,Dig,,,,,up to 1,,,3,,,,,,,any player's,,discard,,,,top,,,,,,,,,,,
+A0020,0,,3001,Energy,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,Remove a Shield from a support object.,1 Energy: Remove a Shield from a support object
+A0020,1,,2016,Remove Shield,,,,,1,,a support object,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0021,0,,3001,Energy,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,Reroll any number of dice that you control.,1 Energy: Reroll any number of dice you control
+A0021,1,,2023,Reroll,,,,,any number,,,,,,,,,,your,,,,,,,,,,,,,,,,,
+A0022,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Event effect: Choose one or both: - Remove a Shield from any object, or - Reroll up to 2 dice you control"
+A0022,1,,4004,Choose,,,,,1 to 2,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0022,1.1,,2016,Remove Shield,,,,,1,,any object,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0022,1.2,or,2023,Reroll,,,,,up to 2,,,,,,,,,,your,,,,,,,,,,,,,,,,,
+A0023,0,,7001,Swift,,,,,,,this,,,,,,,,,,,,,,,,,play,,,,,,,,"Swift (action: play, target: this)"
+A0024,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Event effect: Put a [Blue] Counter on any character you control. You may activate it
+A0024,1,,2017,Put counters,,,,,1,,any character you control,1,,Blue,,,,,,,,,,,,,,,,,,,,,,
+A0024,2,then,2011,Activate,may,,,,,,it,,,,,,,,,,,,,,,,,,,,,,,,,
+A0025,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may remove one dice showing Blank that this rolled to remove a Shield from any object.",When activated (subject: this) [may]: Remove 1 dice you control showing Blank to Remove a Shield from any character you control
+A0025,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0025,1.1,cost,2027,Spend dice,,,,,1,,,,,,,showing Blank,,this,,,,,,,,,,,,,,,,,,
+A0025,1.2,then,2016,Remove Shield,,,,,1,,any object,1,,,,,,,,,,,,,,,,,,,,,,chosen as it happens,,
+A0026,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may resolve one dice.",When activated (subject: this) [may]: Resolve 1 dice
+A0026,1,,2025,Resolve as,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0027,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may deal 1 damage to a support character.",When activated (subject: this) [may]: Deal 1 damage to a support character
+A0027,1,,2007,Damage,,,,,1,,a support character,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0028,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - you may deal 3 damage to a mechanical support.,Arrival (subject: this) [may]: Deal 3 damage to a mechanical support
+A0028,1,,2007,Damage,,,,,1,,a mechanical support,3,,,,,,,,,,,,,,,,,,,,,,,,
+A0029,0,,7011,Attach condition,,,,,,,any character you control,,,,,,,,,,,,,,,,,,,,,,,,,Attach condition (target: any character you control)
+A0030,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, Modify 2.",When activated (subject: this) [may]: Modify 2
+A0030,1,,2005,Modify,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,
+A0031,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - roll [R][R] if you control two or more other support characters.,Arrival (subject: this) [may]: Roll [Red] if you control 2 or more other support characters. Roll [Red] if you control 2 or more other support characters
+A0031,1,,2021,Roll,,you control 2 or more other support characters,,,,,,1,,Red,,,,,,,,,,,,,,,,,,,,,,
+A0031,2,then,2021,Roll,,you control 2 or more other support characters,,,,,,1,,Red,,,,,,,,,,,,,,,,,,,,,,
+A0032,0,,1009,Whenever arrives,may,,a Servo you control,anyone,,,,,,,,,,,,,,,,,,,,,,,,,,,"Whenever a Servo arrives under your control, you may activate it.","Whenever arrives (subject: a Servo you control, by: anyone) [may]: Activate it"
+A0032,1,,2011,Activate,,,,,,,it,,,,,,,,,,,,,,,,,,,,,,,,,
+A0033,0,,3001,Energy,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,Draw 1.,1 Energy: Draw 1
+A0033,1,,2001,Draw,,,,you,,,,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0034,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may activate another character you control.",When activated (subject: this) [may]: Activate another character you control
+A0034,1,,2011,Activate,,,,,1,,another character you control,,,,,,,,,,,,,,,,,,,,,,,,,
+A0035,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Event effect: Roll [Red]. You may deal 2 damage to a support character
+A0035,1,,2021,Roll,,,,,,,,1,,Red,,,,,,,,,,,,,,,,,,,,,,
+A0035,2,then,2007,Damage,may,,,,1,,a support character,2,,,,,,,,,,,,,,,,,,,,,,,,
+A0036,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Event effect: Choose one or both: - Shield 1, or - Destroy a support character"
+A0036,1,,4004,Choose,,,,,1 to 2,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0036,1.1,,2003,Shield,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0036,1.2,or,2008,Destroy,,,,,1,,a support character,,,,,,,,,,,,,,,,,,,,,,,,,
+A0037,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may activate up to two characters you control.",When activated (subject: this) [may]: Activate up to 2 characters you control
+A0037,1,,2011,Activate,,,,,up to 2,,characters you control,,,,,,,,,,,,,,,,,,,,,,,,,
+A0038,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Event effect: Deal 5 damage to each non-ethereal support
+A0038,1,,2007,Damage,,,,,,,each non-ethereal support,5,,,,,,,,,,,,,,,,,,,,,,,,
+A0039,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - Draw 2 if you control two or more other support characters.,Arrival (subject: this) [may]: Draw 2 if you control 2 or more other support characters
+A0039,1,,2001,Draw,,you control 2 or more other support characters,,you,,,,2,,,,,,,,,,,,,,,,,,,,,,,,
+A0040,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may Sabotage one dice showing Damage. If you do, deal damage to this equal to the Sabotaged dice's value.","When activated (subject: this) [may]: Sabotage up to 1 dice showing Damage. If you do, deal damage equal to the Sabotaged dice's value to this"
+A0040,1,,2006,Sabotage,,,,,,,,1,,,,showing Damage,,,,,,,,,,,,,,,,,,,,
+A0040,2,if you do,2007,Damage,,,,,,,this,X: the Sabotaged dice's value,,,,,,,,,,,,,,,,,,,,,,,,
+A0041,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Event effect: Create a Sentinel token. You may sabotage 1
+A0041,1,,2029,Create token,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,Sentinel,,,
+A0041,2,then,2006,Sabotage,may,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0042,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - you may deal 2 damage to any non-ethereal object.,Arrival (subject: this) [may]: Deal 2 damage to any non-ethereal object
+A0042,1,,2007,Damage,,,,,1,,any non-ethereal object,2,,,,,,,,,,,,,,,,,,,,,,,,
+A0043,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - turn up to three dice showing Damage to faces showing Blank.,Arrival (subject: this) [may]: Turn up to 3 dice showing Damage to faces showing Blank
+A0043,1,,2024,Turn,,,,,up to 3,,,,,,,showing Damage,showing Blank,,any player's,,,,,,,,,,,,,,,,,
+A0044,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may Draw 1 then discard a card.",When activated (subject: this) [may]: Draw 1. Discard 1 card
+A0044,1,,2001,Draw,,,,you,,,,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0044,2,then,2030,Discard,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0045,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Event effect: Destroy a mechanical support
+A0045,1,,2008,Destroy,,,,,1,,a mechanical support,,,,,,,,,,,,,,,,,,,,,,,,,
+A0046,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - create a Sentinel token.,Arrival (subject: this) [may]: Create a Sentinel token
+A0046,1,,2029,Create token,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,Sentinel,,,
+A0047,0,,7009,Costs less,,,,,,,,,,,,,,,,,,,,,,(1),,,,,,,,,(1) less if you exhaust a support character you control,Costs less (cost: (1)): if you exhaust a support character you control
+A0047,1,cost,2009,Exhaust,,,,,1,,a support character you control,,,,,,,,,,,,,,,,,,,,,,,,,
+A0048,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Event effect: Draw 2
+A0048,1,,2001,Draw,,,,you,,,,2,,,,,,,,,,,,,,,,,,,,,,,,
+A0049,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Event effect: Resolve one or more dice showing Physical Damage at +2
+A0049,1,,2025,Resolve as,,,,,1 or more,,,,,,,showing Physical Damage,,,,,,,+2,,,,,,,,,,,,,
+A0050,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Event effect: Deal 3 damage to a support attachment
+A0050,1,,2007,Damage,,,,,1,,a support attachment,3,,,,,,,,,,,,,,,,,,,,,,,,
+A0051,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - you may Modify 1 to a face not showing Damage.,Arrival (subject: this) [may]: Modify 1 to a face not showing Damage
+A0051,1,,2005,Modify,,,,,,,,1,,,,,not showing Damage,,,,,,,,,,,,,,,,,,,
+A0052,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - put a [U] Counter on any character you control.,Arrival (subject: this) [may]: Put a [Blue] Counter on any character you control
+A0052,1,,2017,Put counters,,,,,1,,any character you control,1,,Blue,,,,,,,,,,,,,,,,,,,,chosen as it happens,,
+A0053,0,,1021,End of logistics,may,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"At the end of the Logistics phase, you may activate any character or structure you control.",End of logistics [may]: Activate any character or structure you control
+A0053,1,,2011,Activate,,,,,1,,any character or structure you control,,,,,,,,,,,,,,,,,,,,,,,,,
+A0054,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Event effect: You may play a character with total card cost five or less for free. If you do, shield it"
+A0054,1,,2041,Play,may,,,you,1,,a character with total card cost five or less,,,,,,,,,your hand,,,,,,,,,,,,,,free,,
+A0054,2,if you do,2003,Shield,,,,,,,it,,,,,,,,,,,,,,,,,,,,,,,,,
+A0055,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may sacrifice a Servo to roll [R][R].","When activated (subject: this) [may]: Sacrifice a Servo to Roll [Red], then Roll [Red]"
+A0055,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0055,1.1,cost,2013,Sacrifice,,,,,1,,a Servo,,,,,,,,,,,,,,,,,,,,,,,,,
+A0055,1.2,then,2021,Roll,,,,,,,,1,,Red,,,,,,,,,,,,,,,,,,,,,,
+A0055,1.3,then,2021,Roll,,,,,,,,1,,Red,,,,,,,,,,,,,,,,,,,,,,
+A0056,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Event effect: Choose one: - Sabotage 2, or - Deal 5 damage to a support character"
+A0056,1,,4004,Choose,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0056,1.1,,2006,Sabotage,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,
+A0056,1.2,or,2007,Damage,,,,,1,,a support character,5,,,,,,,,,,,,,,,,,,,,,,,,
+A0057,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may Modify 1 to a face showing Damage.",When activated (subject: this) [may]: Modify 1 to a face showing Damage
+A0057,1,,2005,Modify,,,,,,,,1,,,,,showing Damage,,,,,,,,,,,,,,,,,,,
+A0058,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Event effect: Choose one: - Deal 5 damage to a mechanical support, or - Destroy a support attachment"
+A0058,1,,4004,Choose,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0058,1.1,,2007,Damage,,,,,1,,a mechanical support,5,,,,,,,,,,,,,,,,,,,,,,,,
+A0058,1.2,or,2008,Destroy,,,,,1,,a support attachment,,,,,,,,,,,,,,,,,,,,,,,,,
+A0059,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, Draw 1.",When activated (subject: this) [may]: Draw 1
+A0059,1,,2001,Draw,,,,you,,,,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0060,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - look at an opponent's hand.,Arrival (subject: this) [may]: Look at an opponent's hand
+A0060,1,,2033,Look at hand,,,,,,,,,,,,,,,an opponent's,,,,,,,,,,,,,,,,,
+A0061,0,,7029,May resolve as,,,,you,,,,,,,,,,,,Mental Damage,Physical Damage,,,,,,,,,,,,,,,"May resolve as (from: Mental Damage, to: Physical Damage, by: you)"
+A0062,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - put a [G] Counter on any character you control.,Arrival (subject: this) [may]: Put a [Green] Counter on any character you control
+A0062,1,,2017,Put counters,,,,,1,,any character you control,1,,Green,,,,,,,,,,,,,,,,,,,,chosen as it happens,,
+A0063,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Arrival - you may return a support attachment to its owner's hand. If you do, that object deals damage equal to its durability to this.","Arrival (subject: this) [may]: Return a support attachment to its owner's hand. If you do, deal damage equal to its durability to this"
+A0063,1,,2014,Return to hand,,,,,1,,a support attachment,,,,,,,,,,,,,,,,,,,,,,,,,
+A0063,2,if you do,2007,Damage,,,,,,,this,X: its durability,,,,,,,,,,,,,,,,,,,,,,,,
+A0064,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may remove any number of dice showing Blank that you control to roll that many [P].",When activated (subject: this) [may]: Remove any number of dice you control showing Blank to Roll that many [Purple]
+A0064,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0064,1.1,cost,2027,Spend dice,,,,,any number,,,,,,,showing Blank,,,,,,,,,,,,,,,,,,,,
+A0064,1.2,then,2021,Roll,,,,,,,,that many,,Purple,,,,,,,,,,,,,,,,,,,,,,
+A0065,0,,3001,Energy,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,Resolve one dice as if it showed Rend.,1 Energy: Resolve 1 dice as if Rend
+A0065,1,,2025,Resolve as,,,,,1,,,,,,,,,,,,,Rend,,,,,,,,,,,,,,
+A0066,0,,3001,Energy,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,Resolve one dice as if it showed Mental Damage.,1 Energy: Resolve 1 dice as if Mental Damage
+A0066,1,,2025,Resolve as,,,,,1,,,,,,,,,,,,,Mental Damage,,,,,,,,,,,,,,
+A0067,0,,7035,Instead,may,,,anyone,,,this,,,,,,,,,,,,,,,,,,damage be dealt to,redirect to another hero you control,,,,,,"Instead (would: damage be dealt to, target: this, instead: redirect to another hero you control, by: anyone) [may]"
+A0068,0,,1010,Whenever attaches,may,,a character you control,you,,,,,,,,,,,,,,,,,,,,,,,,,,,"Whenever you attach an object to a character you control, you may activate that character.","Whenever attaches (subject: a character you control, by: you) [may]: Activate that card"
+A0068,1,,2011,Activate,,,,,,,that character,,,,,,,,,,,,,,,,,,,,,,,,,
+A0069,0,,3001,Energy,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,Return an attachment card from your discard to your hand.,"1 Energy, discard 1 card: Return 1 attachment card from your discard to your hand"
+A0069,1,cost,2030,Discard,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0069,2,then,2035,Return from discard,,,,,1,,an attachment card,,,,,,,,,,,,,,,,,,,,,,,,,
+A0070,0,,1013,Whenever rolls,may,,this,anyone,,,,,,,,,,,,,,,,,,,,,,,,,,,"Whenever this rolls dice, you may remove one dice showing Blank that this rolled to Modify 1.","Whenever rolls (subject: this, by: anyone) [may]: Remove 1 dice you control showing Blank to Modify 1"
+A0070,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0070,1.1,cost,2027,Spend dice,,,,,1,,,,,,,showing Blank,,this,,,,,,,,,,,,,,,,,,
+A0070,1.2,then,2005,Modify,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0071,0,,3001,Energy,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,Roll [B].,1 Energy: Roll [Black]
+A0071,1,,2021,Roll,,,,,,,,1,,Black,,,,,,,,,,,,,,,,,,,,,,
+A0072,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may remove two dice sharing a color that you control to put a Dice Counter of that color on a support character you control.",When activated (subject: this) [may]: Remove 2 dice you control sharing a color to Put a Dice Counter of that color on a support character you control
+A0072,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0072,1.1,cost,2027,Spend dice,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,sharing a color,,
+A0072,1.2,then,2017,Put counters,,,,,1,,a support character you control,1,,paid,,,,,,,,,,,,,,,,,,,,,,
+A0073,0,,3001,Energy,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,Roll [B][B].,1 Energy: Roll [Black]. Roll [Black]
+A0073,1,,2021,Roll,,,,,,,,1,,Black,,,,,,,,,,,,,,,,,,,,,,
+A0073,2,then,2021,Roll,,,,,,,,1,,Black,,,,,,,,,,,,,,,,,,,,,,
+A0074,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may resolve one dice as if it showed Shield.",When activated (subject: this) [may]: Resolve 1 dice as if Shield
+A0074,1,,2025,Resolve as,,,,,1,,,,,,,,,,,,,Shield,,,,,,,,,,,,,,
+A0075,0,,3001,Energy,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,Create [R] showing Physical Damage.,"1 Energy, remove 1 dice you control: Create [Red] showing Physical Damage"
+A0075,1,cost,2027,Spend dice,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0075,2,then,2022,Create dice,,,,,,,,1,,Red,,showing Physical Damage,,,,,,,,,,,,,,,,,,,,
+A0076,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may play an event with this paying (Y) towards it.",When activated (subject: this) [may]: Play an event with this paying (Y) towards it
+A0076,1,,2041,Play,,,,you,1,,an event,,,,,,,,,your hand,,,,(Y),,,,,,,,,,,,
+A0077,0,,3001,Energy,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,Deal 3 damage to any hero.,2 Energy: Deal 3 damage to any hero
+A0077,1,,2007,Damage,,,,,1,,any hero,3,,,,,,,,,,,,,,,,,,,,,,,,
+A0078,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may shuffle one card from a discard into its owner's deck.",When activated (subject: this) [may]: Shuffle a card from a discard into its owner's deck
+A0078,1,,2037,Cards to deck,,,,,1,,a card,,,,,,,,,a discard,shuffle,,,,,,,,,,,,,,,
+A0079,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may deal 1 damage to this to Sabotage one dice showing Damage.",When activated (subject: this) [may]: Deal 1 damage to this to Sabotage up to 1 dice showing Damage
+A0079,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0079,1.1,cost,2007,Damage,,,,,,,this,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0079,1.2,then,2006,Sabotage,,,,,,,,1,,,,showing Damage,,,,,,,,,,,,,,,,,,,,
+A0080,0,,3001,Energy,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,Resolve one dice as if it showed Shield.,1 Energy: Resolve 1 dice as if Shield
+A0080,1,,2025,Resolve as,,,,,1,,,,,,,,,,,,,Shield,,,,,,,,,,,,,,
+A0081,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - put a [B] Counter on any character you control.,Arrival (subject: this) [may]: Put a [Black] Counter on any character you control
+A0081,1,,2017,Put counters,,,,,1,,any character you control,1,,Black,,,,,,,,,,,,,,,,,,,,chosen as it happens,,
+A0082,0,,7035,Instead,,,,you,,,this,,,,,,,,,,,,,,,,,,Dice Counters be put on,twice that many,,,,,"Whenever you would put a Dice Counter on this, put twice that many counters on this instead","Instead (would: Dice Counters be put on, target: this, instead: twice that many, by: you)"
+A0083,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - Modify 1.,Arrival (subject: this) [may]: Modify 1
+A0083,1,,2005,Modify,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0084,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Event effect: Choose one: - Put a [Red] Counter on a support character you control, or - Sabotage up to 2 dice showing Damage"
+A0084,1,,4004,Choose,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0084,1.1,,2017,Put counters,,,,,1,,a support character you control,1,,Red,,,,,,,,,,,,,,,,,,,,,,
+A0084,1.2,or,2006,Sabotage,,,,,,,,2,,,,showing Damage,,,,,,,,,,,,,,,,,,,,
+A0085,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Arrival - you may return a non-mechanical support to its owner's hand. If you do, that object deals damage equal to its durability to this.","Arrival (subject: this) [may]: Return a non-mechanical support to its owner's hand. If you do, deal damage equal to its durability to this"
+A0085,1,,2014,Return to hand,,,,,1,,a non-mechanical support,,,,,,,,,,,,,,,,,,,,,,,,,
+A0085,2,if you do,2007,Damage,,,,,,,this,X: its durability,,,,,,,,,,,,,,,,,,,,,,,,
+A0086,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, put a Dice Counter on any character of a color already on that character.",When activated (subject: this) [may]: Put a Dice Counter of a color already on it on any character
+A0086,1,,2017,Put counters,,,,,1,,any character,1,,same,,,,,,,,,,,,,,,,,,,,,,
+A0087,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may remove up to two dice showing Blank that you control to roll that many [G].",When activated (subject: this) [may]: Remove up to 2 dice you control showing Blank to Roll that many [Green]
+A0087,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0087,1.1,cost,2027,Spend dice,,,,,up to 2,,,,,,,showing Blank,,,,,,,,,,,,,,,,,,,,
+A0087,1.2,then,2021,Roll,,,,,,,,that many,,Green,,,,,,,,,,,,,,,,,,,,,,
+A0088,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may sacrifice this to deal 5 damage to a support structure.",When activated (subject: this) [may]: Sacrifice this to Deal 5 damage to a support structure
+A0088,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0088,1.1,cost,2013,Sacrifice,,,,,,,this,,,,,,,,,,,,,,,,,,,,,,,,,
+A0088,1.2,then,2007,Damage,,,,,1,,a support structure,5,,,,,,,,,,,,,,,,,,,,,,,,
+A0089,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Event effect: Deal 3 damage to a support structure
+A0089,1,,2007,Damage,,,,,1,,a support structure,3,,,,,,,,,,,,,,,,,,,,,,,,
+A0090,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Event effect: Destroy an ethereal support
+A0090,1,,2008,Destroy,,,,,1,,an ethereal support,,,,,,,,,,,,,,,,,,,,,,,,,
+A0091,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Arrival - you may deal 2 damage to any support character. If you do, that object deals damage equal to its durability to this.","Arrival (subject: this) [may]: Deal 2 damage to any support character. If you do, deal damage equal to its durability to this"
+A0091,1,,2007,Damage,,,,,1,,any support character,2,,,,,,,,,,,,,,,,,,,,,,,,
+A0091,2,if you do,2007,Damage,,,,,,,this,X: its durability,,,,,,,,,,,,,,,,,,,,,,,,
+A0092,0,,3001,Energy,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,Swift,Swift - activate the attached character. (The initiative is retained after taking Swift actions.),1 Energy: Swift - Activate attached character
+A0092,1,,2011,Activate,,,,,,,attached character,,,,,,,,,,,,,,,,,,,,,,,,,
+A0093,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Arrival - Sabotage 1, then put a Dice Counter of the Sabotaged dice's color on this and on up to one other support character you control.",Arrival (subject: this) [may]: Sabotage 1. Put a Dice Counter of the Sabotaged dice's color on this. Put a Dice Counter of the Sabotaged dice's color on up to one other support character you control
+A0093,1,,2006,Sabotage,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0093,2,then,2017,Put counters,,,,,,,this,1,,sabotaged,,,,,,,,,,,,,,,,,,,,,,
+A0093,3,then,2017,Put counters,,,,,up to 1,,another support character you control,1,,sabotaged,,,,,,,,,,,,,,,,,,,,,,
+A0094,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Event effect: Reveal the top 5 cards of your deck, choose a card from among them, then put the rest on the bottom. You may play it, with this paying (Y)(Y) towards it. If you don't, put it on the bottom of its owner's deck"
+A0094,1,,2032,Dig,,,,,1,,a card,5,,,,,,,your,,chosen,,,,bottom,,,,,,,,,reveal,,
+A0094,2,then,2041,Play,may,,,you,1,,it,,,,,,,,,,,,,(Y)(Y),,,,,,,,,,,,
+A0094,3,if you don't,2015,Put on deck,,,,,,,it,,,,,,,,,,bottom,,,,,,,,,,,,,,,
+A0095,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - you may remove one dice you control to put a [G] Counter on attached character.,Arrival (subject: this) [may]: Remove 1 dice you control to Put a [Green] Counter on attached character
+A0095,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0095,1.1,cost,2027,Spend dice,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0095,1.2,then,2017,Put counters,,,,,,,attached character,1,,Green,,,,,,,,,,,,,,,,,,,,,,
+A0096,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - you may remove a Shield from any object.,Arrival (subject: this) [may]: Remove a Shield from any character you control
+A0096,1,,2016,Remove Shield,,,,,1,,any object,1,,,,,,,,,,,,,,,,,,,,,,chosen as it happens,,
+A0097,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Event effect: Choose one or both: - Sabotage 1, or - Deal 4 damage to an ethereal support or a support structure"
+A0097,1,,4004,Choose,,,,,1 to 2,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0097,1.1,,2006,Sabotage,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0097,1.2,or,2007,Damage,,,,,1,,an ethereal support or a support structure,4,,,,,,,,,,,,,,,,,,,,,,,,
+A0098,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Event effect: Choose one: - Modify 2, or - Deal 5 damage to a support character"
+A0098,1,,4004,Choose,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0098,1.1,,2005,Modify,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,
+A0098,1.2,or,2007,Damage,,,,,1,,a support character,5,,,,,,,,,,,,,,,,,,,,,,,,
+A0099,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may reroll any dice showing Blank that attached character rolled.",When activated (subject: this) [may]: Reroll any number of dice you control showing Blank that attached character rolled
+A0099,1,,2023,Reroll,,,,,any number,,,,,,,showing Blank,,attached character,your,,,,,,,,,,,,,,,,,
+A0100,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - put a [B] Counter on this.,Arrival (subject: this) [may]: Put a [Black] Counter on this
+A0100,1,,2017,Put counters,,,,,,,this,1,,Black,,,,,,,,,,,,,,,,,,,,,,
+A0101,0,,1012,Whenever counter removed,may,,this,anyone,,,,,,,,,,,,,,,,,,,,,,,,,,dice counters,"Whenever a Dice Counter is removed from this, put a [B] Counter on this.","Whenever counter removed (subject: this, by: anyone, options: dice counters) [may]: Put a [Black] Counter on this"
+A0101,1,,2017,Put counters,,,,,,,this,1,,Black,,,,,,,,,,,,,,,,,,,,,,
+A0102,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - put a [P] Counter on any character you control.,Arrival (subject: this) [may]: Put a [Purple] Counter on any character you control
+A0102,1,,2017,Put counters,,,,,1,,any character you control,1,,Purple,,,,,,,,,,,,,,,,,,,,chosen as it happens,,
+A0103,0,,1014,Whenever modifies,may,,,you,,,,,,,,,,,,,,,,,,,,,,,,,,,"Whenever you Modify one or more dice, you may remove one dice you control to Heal 1.",Whenever modifies (by: you) [may]: Remove 1 dice you control to Heal 1
+A0103,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0103,1.1,cost,2027,Spend dice,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0103,1.2,then,2004,Heal,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0104,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Event effect: Put a non-token support character on the bottom of its owner's deck. Its controller may play a character for free, which arrives exhausted"
+A0104,1,,2015,Put on deck,,,,,1,,a non-token support character,,,,,,,,,,bottom,,,,,,,,,,,,,,,
+A0104,2,then,2041,Play,may,,,its controller,1,,a character,,,,,,,,,your hand,,,,,,,,,,,,,,free; exhausted,,
+A0105,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may sacrifice this to ready another support character.",When activated (subject: this) [may]: Sacrifice this to Ready another support character
+A0105,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0105,1.1,cost,2013,Sacrifice,,,,,,,this,,,,,,,,,,,,,,,,,,,,,,,,,
+A0105,1.2,then,2010,Ready,,,,,1,,another support character,,,,,,,,,,,,,,,,,,,,,,,,,
+A0106,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - put a [R] Counter on each of up to two other support characters you control.,Arrival (subject: this) [may]: Put a [Red] Counter on up to 2 other support characters you control
+A0106,1,,2017,Put counters,,,,,up to 2,,other support characters you control,1,,Red,,,,,,,,,,,,,,,,,,,,,,
+A0107,0,,7010,Alternate cost,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Alternate cost: Remove a Dice Counter from an Artist you control
+A0107,1,cost,2019,Remove counter,,,,,,,,1,Dice Counter,,,,,,,an Artist you control,,,,,,,,,,,,,,,,
+A0108,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - you may return a character card from your discard to your hand.,Arrival (subject: this) [may]: Return 1 character card from your discard to your hand
+A0108,1,,2035,Return from discard,,,,,1,,a character card,,,,,,,,,,,,,,,,,,,,,,,,,
+A0109,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may move a Dice Counter from any character you control to any other character you control.",When activated (subject: this) [may]: Move a Dice Counter from any character you control to any other character you control
+A0109,1,,2018,Move counters,,,,,,,,1,Dice Counter,,,,,,,any character you control,any other character you control,,,,,,,,,,,,,,,
+A0110,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Arrival - Shield this. Then, you may move a Dice Counter from another character you control onto this.",Arrival (subject: this) [may]: Shield this. You may move a Dice Counter from another character you control to this
+A0110,1,,2003,Shield,,,,,,,this,,,,,,,,,,,,,,,,,,,,,,,,,
+A0110,2,then,2018,Move counters,may,,,,,,,1,Dice Counter,,,,,,,another character you control,this,,,,,,,,,,,,,,,
+A0111,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Event effect: Choose one: - Modify 1, or - Sabotage 1. If you control a Rogue, you may choose both"
+A0111,1,,4004,Choose,,,,,1,,,,,,,,,,,,,,,,,,,,,,you control a Rogue,,,,,
+A0111,1.1,,2005,Modify,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0111,1.2,or,2006,Sabotage,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0112,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Event effect: Sabotage 3. Turn all dice you control to faces showing Blank
+A0112,1,,2006,Sabotage,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,
+A0112,2,then,2024,Turn,,,,,all,,,,,,,,showing Blank,,your,,,,,,,,,,,,,,,,,
+A0113,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may remove up to three dice that you control to roll that many [R].",When activated (subject: this) [may]: Remove up to 3 dice you control to Roll that many [Red]
+A0113,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0113,1.1,cost,2027,Spend dice,,,,,up to 3,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0113,1.2,then,2021,Roll,,,,,,,,that many,,Red,,,,,,,,,,,,,,,,,,,,,,
+A0114,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - resolve up to three dice as if they showed Physical Damage.,Arrival (subject: this) [may]: Resolve up to 3 dice as if Physical Damage
+A0114,1,,2025,Resolve as,,,,,up to 3,,,,,,,,,,,,,Physical Damage,,,,,,,,,,,,,,
+A0115,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - you may exhaust any support character.,Arrival (subject: this) [may]: Exhaust any support character
+A0115,1,,2009,Exhaust,,,,,1,,any support character,,,,,,,,,,,,,,,,,,,,,,,,,
+A0116,0,,3001,Energy,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,Put a [B] Counter on a support character you control.,2 Energy: Put a [Black] Counter on a support character you control
+A0116,1,,2017,Put counters,,,,,1,,a support character you control,1,,Black,,,,,,,,,,,,,,,,,,,,,,
+A0117,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - Shield attached character.,Arrival (subject: this) [may]: Shield attached character
+A0117,1,,2003,Shield,,,,,,,attached character,,,,,,,,,,,,,,,,,,,,,,,,,
+A0118,0,,1002,When activated,must,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you must remove two dice you control.",When activated (subject: this) [must]: Remove 2 dice you control
+A0118,1,,2027,Spend dice,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0119,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, reveal the top five cards of your deck. You may put a revealed character card from among them into your hand, then put the rest on the bottom of your deck.","When activated (subject: this) [may]: Reveal the top 5 cards of your deck, put up to one character card from among them into your hand, then put the rest on the bottom"
+A0119,1,,2032,Dig,,,,,up to 1,,a character card,5,,,,,,,your,,hand,,,,bottom,,,,,,,,,reveal,,
+A0120,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - put two [W] Counters on any character you control.,Arrival (subject: this) [may]: Put 2 [White] Counters on any character you control
+A0120,1,,2017,Put counters,,,,,1,,any character you control,2,,White,,,,,,,,,,,,,,,,,,,,chosen as it happens,,
+A0121,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may remove one dice you control to Modify 1.",When activated (subject: this) [may]: Remove 1 dice you control to Modify 1
+A0121,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0121,1.1,cost,2027,Spend dice,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0121,1.2,then,2005,Modify,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0122,0,,7007,Arrives exhausted,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrives exhausted
+A0123,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may play a character with this paying (G) towards it.",When activated (subject: this) [may]: Play a character with this paying (G) towards it
+A0123,1,,2041,Play,,,,you,1,,a character,,,,,,,,,your hand,,,,(G),,,,,,,,,,,,
+A0124,0,,3001,Energy,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,Roll [G].,1 Energy: Roll [Green]
+A0124,1,,2021,Roll,,,,,,,,1,,Green,,,,,,,,,,,,,,,,,,,,,,
+A0125,0,,3001,Energy,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,Roll [R][R].,"1 Energy, remove 1 Green dice you control: Roll [Red]. Roll [Red]"
+A0125,1,cost,2027,Spend dice,,,,,1,,,,,Green,,,,,,,,,,,,,,,,,,,,,,
+A0125,2,then,2021,Roll,,,,,,,,1,,Red,,,,,,,,,,,,,,,,,,,,,,
+A0125,3,then,2021,Roll,,,,,,,,1,,Red,,,,,,,,,,,,,,,,,,,,,,
+A0126,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may remove one dice that you control to Heal 2 another hero you control.",When activated (subject: this) [may]: Remove 1 dice you control to Heal 2 another hero you control
+A0126,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0126,1.1,cost,2027,Spend dice,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0126,1.2,then,2004,Heal,,,,,1,,another hero you control,2,,,,,,,,,,,,,,,,,,,,,,,,
+A0127,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may put an event card with total card cost three or less from your discard on top of your deck.",When activated (subject: this) [may]: Put an event card with total card cost three or less from your discard on top of your deck
+A0127,1,,2037,Cards to deck,,,,,1,,an event card with total card cost three or less,,,,,,,,,your discard,top,,,,,,,,,,,,,,,
+A0128,0,,3001,Energy,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,Each player discards the top two cards of their deck.,1 Energy: Each player discards the top 2 cards of their deck
+A0128,1,,2031,Mill,,,,each player,,,,2,,,,,,,your,,,,,,,,,,,,,,,,,
+A0129,0,,1008,Whenever activates,may,,a Druid,you,,,,,,,,,,,,,,,,,,,,,,,,,,,"Whenever you activate a Druid, you may have any player discard the top card of their deck.","Whenever activates (subject: a Druid, by: you) [may]: A player of your choice discards the top card of their deck"
+A0129,1,,2031,Mill,,,,any player,,,,1,,,,,,,your,,,,,,,,,,,,,,,,,
+A0130,0,,3001,Energy,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,"Put a card from a discard on the bottom of its owner's deck. If it was an event card, roll [P].",1 Energy: Put a card from a discard on the bottom of its owner's deck. Roll [Purple] if it was an event card
+A0130,1,,2037,Cards to deck,,,,,1,,a card,,,,,,,,,a discard,bottom,,,,,,,,,,,,,,,
+A0130,2,then,2021,Roll,,it was an event card,,,,,,1,,Purple,,,,,,,,,,,,,,,,,,,,,,
+A0131,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may put a [W] Counter on an ethereal support you control.",When activated (subject: this) [may]: Put a [White] Counter on an ethereal support you control
+A0131,1,,2017,Put counters,,,,,1,,an ethereal support you control,1,,White,,,,,,,,,,,,,,,,,,,,,,
+A0132,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may resolve one dice as if it showed Draw.",When activated (subject: this) [may]: Resolve 1 dice as if Draw
+A0132,1,,2025,Resolve as,,,,,1,,,,,,,,,,,,,Draw,,,,,,,,,,,,,,
+A0133,0,,3001,Energy,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,Return an ethereal card from your discard to your hand.,"1 Energy, discard 1 card: Return 1 ethereal card from your discard to your hand"
+A0133,1,cost,2030,Discard,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0133,2,then,2035,Return from discard,,,,,1,,an ethereal card,,,,,,,,,,,,,,,,,,,,,,,,,
+A0134,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may play a structure with this paying (G) towards it.",When activated (subject: this) [may]: Play a structure with this paying (G) towards it
+A0134,1,,2041,Play,,,,you,1,,a structure,,,,,,,,,your hand,,,,(G),,,,,,,,,,,,
+A0135,0,,3001,Energy,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,Swift,Swift - activate any Eidolon you control. (The initiative is retained after taking Swift actions.),1 Energy: Swift - Activate any Eidolon you control
+A0135,1,,2011,Activate,,,,,1,,any Eidolon you control,,,,,,,,,,,,,,,,,,,,,,,,,
+A0136,0,,1007,Whenever plays,may,,a character,you,,,,,,,,,,,,,,,,,,,,,,,,,,,"Whenever you play a character, you may have each player Draw 1.","Whenever plays (subject: a character, by: you) [may]: Each player draws 1"
+A0136,1,,2001,Draw,,,,each player,,,,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0137,0,,3001,Energy,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,"Look at the top two cards of your deck. Discard any number of them, then put the rest back on top of your deck in any order.","1 Energy: Look at the top 2 cards of your deck, discard up to 2 of them, then put the rest back on top"
+A0137,1,,2032,Dig,,,,,up to 2,,,2,,,,,,,your,,discard,,,,top,,,,,,,,,,,
+A0138,0,,3001,Energy,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,"Put any number of cards from hand on the bottom of your deck, then draw that many cards.",1 Energy: Put any number of cards from your hand on the bottom of your deck to Draw that many
+A0138,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0138,1.1,cost,2037,Cards to deck,,,,,any number,,cards,,,,,,,,,your hand,bottom,,,,,,,,,,,,,,,
+A0138,1.2,then,2001,Draw,,,,you,,,,that many,,,,,,,,,,,,,,,,,,,,,,,,
+A0139,0,,1007,Whenever plays,may,,an event,you,,,,,,,,,,,,,,,,,,,,,,,,,,,"Whenever you play an event, you may discard the top card of your deck. If you discarded an event card, roll [W].","Whenever plays (subject: an event, by: you) [may]: Discard the top card of your deck. Roll [White] if it was an event card"
+A0139,1,,2031,Mill,,,,you,,,,1,,,,,,,your,,,,,,,,,,,,,,,,,
+A0139,2,then,2021,Roll,,it was an event card,,,,,,1,,White,,,,,,,,,,,,,,,,,,,,,,
+A0140,0,,3001,Energy,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,Deal 2 damage to any hero.,"1 Energy, remove 1 dice you control showing Blank: Deal 2 damage to any hero"
+A0140,1,cost,2027,Spend dice,,,,,1,,,,,,,showing Blank,,,,,,,,,,,,,,,,,,,,
+A0140,2,then,2007,Damage,,,,,1,,any hero,2,,,,,,,,,,,,,,,,,,,,,,,,
+A0141,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - ready a support Eidolon you control.,Arrival (subject: this) [may]: Ready a support Eidolon you control
+A0141,1,,2010,Ready,,,,,1,,a support Eidolon you control,,,,,,,,,,,,,,,,,,,,,,,,,
+A0142,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may sacrifice this to Shield attached character.",When activated (subject: this) [may]: Sacrifice this to Shield attached character
+A0142,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0142,1.1,cost,2013,Sacrifice,,,,,,,this,,,,,,,,,,,,,,,,,,,,,,,,,
+A0142,1.2,then,2003,Shield,,,,,,,attached character,,,,,,,,,,,,,,,,,,,,,,,,,
+A0143,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Event effect: Reroll up to 1 dice an opponent controls. Turn up to 1 dice an opponent controls to any face. Sabotage 1
+A0143,1,,2023,Reroll,,,,,1,,,,,,,,,,an opponent's,,,,,,,,,,,,,,,,,
+A0143,2,then,2024,Turn,,,,,1,,,,,,,,any face,,an opponent's,,,,,,,,,,,,,,,,,
+A0143,3,then,2006,Sabotage,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0144,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - roll [W].,Arrival (subject: this) [may]: Roll [White]
+A0144,1,,2021,Roll,,,,,,,,1,,White,,,,,,,,,,,,,,,,,,,,,,
+A0145,0,,3001,Energy,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,Swift,Swift - activate this. (The initiative is retained after taking Swift actions.),1 Energy: Swift - Activate this
+A0145,1,,2011,Activate,,,,,,,this,,,,,,,,,,,,,,,,,,,,,,,,,
+A0146,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Event effect: Roll [Green]. Modify 1
+A0146,1,,2021,Roll,,,,,,,,1,,Green,,,,,,,,,,,,,,,,,,,,,,
+A0146,2,then,2005,Modify,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0147,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Event effect: Choose one: - Put a [Blue] Counter on any character you control, then Shield it, or - Deal 5 damage to a support character"
+A0147,1,,4004,Choose,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0147,1.1,,2017,Put counters,,,,,1,,any character you control,1,,Blue,,,,,,,,,,,,,,,,,,,,,,
+A0147,1.2,then,2003,Shield,,,,,,,it,,,,,,,,,,,,,,,,,,,,,,,,,
+A0147,1.3,or,2007,Damage,,,,,1,,a support character,5,,,,,,,,,,,,,,,,,,,,,,,,
+A0148,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, choose one: - Draw 1, or - Modify 1. If you control an Eidolon, you may choose both.","When activated (subject: this) [may]: Choose one: - Draw 1, or - Modify 1. If you control an Eidolon, you may choose both"
+A0148,1,,4004,Choose,,,,,1,,,,,,,,,,,,,,,,,,,,,,you control an Eidolon,,,,,
+A0148,1.1,,2001,Draw,,,,you,,,,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0148,1.2,or,2005,Modify,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0149,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Event effect: Deal 3 damage divided as you choose among 1 or 2 non-ethereal supports
+A0149,1,,2007,Damage,,,,,1 to 2,,non-ethereal supports,3,,,,,,,,,,,,,,,,,,,,,,divided,,
+A0150,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - Heal 2.,Arrival (subject: this) [may]: Heal 2
+A0150,1,,2004,Heal,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,
+A0151,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Event effect: Choose one: - Put a [Purple] Counter on any Eidolon you control, or - Put a [White] Counter on a support character you control"
+A0151,1,,4004,Choose,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0151,1.1,,2017,Put counters,,,,,1,,any Eidolon you control,1,,Purple,,,,,,,,,,,,,,,,,,,,,,
+A0151,1.2,or,2017,Put counters,,,,,1,,a support character you control,1,,White,,,,,,,,,,,,,,,,,,,,,,
+A0152,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Event effect: Deal 4 damage to any character
+A0152,1,,2007,Damage,,,,,1,,any character,4,,,,,,,,,,,,,,,,,,,,,,,,
+A0153,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may return this to your hand to put a [B] Counter on any Eidolon or support character you control.",When activated (subject: this) [may]: Return this to its owner's hand to Put a [Black] Counter on any Eidolon or support character you control
+A0153,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0153,1.1,cost,2014,Return to hand,,,,,,,this,,,,,,,,,,,,,,,,,,,,,,,,,
+A0153,1.2,then,2017,Put counters,,,,,1,,any Eidolon or support character you control,1,,Black,,,,,,,,,,,,,,,,,,,,,,
+A0154,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - put a [R] Counter on this if you have three or more event cards in your discard.,Arrival (subject: this) [may]: Put a [Red] Counter on this if you have 3 or more event cards in your discard
+A0154,1,,2017,Put counters,,you have 3 or more event cards in your discard,,,,,this,1,,Red,,,,,,,,,,,,,,,,,,,,,,
+A0155,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - return up to one event card from your discard to your hand.,Arrival (subject: this) [may]: Return up to 1 event card from your discard to your hand
+A0155,1,,2035,Return from discard,,,,,up to 1,,an event card,,,,,,,,,,,,,,,,,,,,,,,,,
+A0156,0,,1007,Whenever plays,may,,an event,you,,,,,,,,,,,,,,,,,,,,,,,,,,,"Whenever you play an event, deal 1 damage to any hero if the event shares a name with another card in your discard.","Whenever plays (subject: an event, by: you) [may]: Deal 1 damage to any hero if the event shares a name with another card in your discard"
+A0156,1,,2007,Damage,,the event shares a name with another card in your discard,,,1,,any hero,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0157,0,,7005,Unique,must,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Unique,Unique [must]: Sacrifice each other object you control with the same card name as this
+A0158,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - put a [R] Counter on each other Eidolon you control.,Arrival (subject: this) [may]: Put a [Red] Counter on each other Eidolon you control
+A0158,1,,2017,Put counters,,,,,,,each other Eidolon you control,1,,Red,,,,,,,,,,,,,,,,,,,,,,
+A0159,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Event effect: Each player discards the top 3 cards of their deck. You may choose one: - Deal 5 damage to a support structure, or - Destroy a mechanical support"
+A0159,1,,2031,Mill,,,,each player,,,,3,,,,,,,your,,,,,,,,,,,,,,,,,
+A0159,2,then,4004,Choose,may,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0159,2.1,,2007,Damage,,,,,1,,a support structure,5,,,,,,,,,,,,,,,,,,,,,,,,
+A0159,2.2,or,2008,Destroy,,,,,1,,a mechanical support,,,,,,,,,,,,,,,,,,,,,,,,,
+A0160,0,,1001,Arrival,must,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Arrival - you must roll [P][Y], then exhaust this unless you exhaust any Druid you control.",Arrival (subject: this) [must]: Roll [Purple]. Roll [Yellow]. Exhaust this unless you exhaust any Druid you control
+A0160,1,,2021,Roll,,,,,,,,1,,Purple,,,,,,,,,,,,,,,,,,,,,,
+A0160,2,then,2021,Roll,,,,,,,,1,,Yellow,,,,,,,,,,,,,,,,,,,,,,
+A0160,3,then,2009,Exhaust,,,,,,,this,,,,,,,,,,,,,,,,,,,,,,,,,
+A0160,3.1,unless,2009,Exhaust,,,,,1,,any Druid you control,,,,,,,,,,,,,,,,,,,,,,,,,
+A0161,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - look at the top three cards of your deck. Put one of them into your hand and discard the rest.,"Arrival (subject: this) [may]: Look at the top 3 cards of your deck, put one of them into your hand, then discard the rest"
+A0161,1,,2032,Dig,,,,,1,,,3,,,,,,,your,,hand,,,,discard,,,,,,,,,,,
+A0162,0,,1011,Whenever counters put,may,,this,anyone,,,,,,,,,,,,,,,,,,,,,,,,,,,"Whenever one or more Dice Counters are put on this, roll [B].","Whenever counters put (subject: this, by: anyone) [may]: Roll [Black]"
+A0162,1,,2021,Roll,,,,,,,,1,,Black,,,,,,,,,,,,,,,,,,,,,,
+A0163,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - you may put up to five ethereal cards from your discard on the bottom of your deck to roll that many [B].,Arrival (subject: this) [may]: Put up to 5 ethereal cards from your discard on the bottom of your deck to Roll that many [Black]
+A0163,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0163,1.1,cost,2037,Cards to deck,,,,,up to 5,,ethereal cards,,,,,,,,,your discard,bottom,,,,,,,,,,,,,,,
+A0163,1.2,then,2021,Roll,,,,,,,,that many,,Black,,,,,,,,,,,,,,,,,,,,,,
+A0164,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - you may deal 3 damage to a support structure.,Arrival (subject: this) [may]: Deal 3 damage to a support structure
+A0164,1,,2007,Damage,,,,,1,,a support structure,3,,,,,,,,,,,,,,,,,,,,,,,,
+A0165,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - put a [W] Counter on attached character if it is a Druid.,Arrival (subject: this) [may]: Put a [White] Counter on attached character if it is a Druid
+A0165,1,,2017,Put counters,,it is a Druid,,,,,attached character,1,,White,,,,,,,,,,,,,,,,,,,,,,
+A0166,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, Sabotage 1 if you control an Eidolon.",When activated (subject: this) [may]: Sabotage 1 if you control an Eidolon
+A0166,1,,2006,Sabotage,,you control an Eidolon,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0167,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Event effect: Deal 3 damage to a mechanical support
+A0167,1,,2007,Damage,,,,,1,,a mechanical support,3,,,,,,,,,,,,,,,,,,,,,,,,
+A0168,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Arrival - look at the top three cards of your deck. You may discard any number of them, then put the rest back on top of your deck in any order.","Arrival (subject: this) [may]: Look at the top 3 cards of your deck, discard up to 3 of them, then put the rest back on top"
+A0168,1,,2032,Dig,,,,,up to 3,,,3,,,,,,,your,,discard,,,,top,,,,,,,,,,,
+A0169,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Event effect: Destroy a support structure
+A0169,1,,2008,Destroy,,,,,1,,a support structure,,,,,,,,,,,,,,,,,,,,,,,,,
+A0170,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, put up to three event cards from your discard on the bottom of your deck to deal that much damage to any hero.",When activated (subject: this) [may]: Put up to 3 event cards from your discard on the bottom of your deck to Deal that much damage to any hero
+A0170,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0170,1.1,cost,2037,Cards to deck,,,,,up to 3,,event cards,,,,,,,,,your discard,bottom,,,,,,,,,,,,,,,
+A0170,1.2,then,2007,Damage,,,,,1,,any hero,that many,,,,,,,,,,,,,,,,,,,,,,,,
+A0171,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may activate any other Eidolon or support character you control.",When activated (subject: this) [may]: Activate any other Eidolon or support character you control
+A0171,1,,2011,Activate,,,,,1,,any other Eidolon or support character you control,,,,,,,,,,,,,,,,,,,,,,,,,
+A0172,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, Shield a hero you control.",When activated (subject: this) [may]: Shield a hero you control
+A0172,1,,2003,Shield,,,,,1,,a hero you control,,,,,,,,,,,,,,,,,,,,,,,,,
+A0173,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Event effect: Each player discards the top 3 cards of their deck. You may return 1 card from your discard to your hand
+A0173,1,,2031,Mill,,,,each player,,,,3,,,,,,,your,,,,,,,,,,,,,,,,,
+A0173,2,then,2035,Return from discard,may,,,,1,,a card,,,,,,,,,,,,,,,,,,,,,,,,,
+A0174,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may resolve one dice as if it showed Sabotage.",When activated (subject: this) [may]: Resolve 1 dice as if Sabotage
+A0174,1,,2025,Resolve as,,,,,1,,,,,,,,,,,,,Sabotage,,,,,,,,,,,,,,
+A0175,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - you may exhaust this to deal 2 damage to each other character.,Arrival (subject: this) [may]: Exhaust this to Deal 2 damage to each other character
+A0175,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0175,1.1,cost,2009,Exhaust,,,,,,,this,,,,,,,,,,,,,,,,,,,,,,,,,
+A0175,1.2,then,2007,Damage,,,,,,,each other character,2,,,,,,,,,,,,,,,,,,,,,,,,
+A0176,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Event effect: Put a [Red] Counter on any character you control. Activate up to 3 objects you control with Dice Counters on them
+A0176,1,,2017,Put counters,,,,,1,,any character you control,1,,Red,,,,,,,,,,,,,,,,,,,,,,
+A0176,2,then,2011,Activate,,,,,up to 3,,objects you control with Dice Counters on them,,,,,,,,,,,,,,,,,,,,,,,,,
+A0177,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Event effect: Look at the top 3 cards of your deck, choose a card from among them, then put the rest on the bottom. You may play it, with this paying (G) towards it if it is a character. If you don't, return it to its owner's hand"
+A0177,1,,2032,Dig,,,,,1,,a card,3,,,,,,,your,,chosen,,,,bottom,,,,,,,,,,,
+A0177,2,then,2041,Play,may,it is a character,,you,1,,it,,,,,,,,,,,,,(G),,,,,,,,,,,,
+A0177,3,if you don't,2014,Return to hand,,,,,,,it,,,,,,,,,,,,,,,,,,,,,,,,,
+A0178,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - put a [Y] Counter on any Eidolon or another support character you control.,Arrival (subject: this) [may]: Put a [Yellow] Counter on any Eidolon or another support character you control
+A0178,1,,2017,Put counters,,,,,1,,any Eidolon or another support character you control,1,,Yellow,,,,,,,,,,,,,,,,,,,,,,
+A0179,0,,1008,Whenever activates,may,works from your discard,a Druid,you,,,,,,,,,,,,,,,,,,,,,,,,,,,"Whenever you activate a Druid, you may remove a Dice Counter from that Druid to play this from your discard.","Whenever activates (subject: a Druid, by: you) [may] [if works from your discard]: Remove a Dice Counter from that card to Play this"
+A0179,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0179,1.1,cost,2019,Remove counter,,,,,,,,1,Dice Counter,,,,,,,that Druid,,,,,,,,,,,,,,,,
+A0179,1.2,then,2041,Play,,,,you,1,,this,,,,,,,,,,,,,,,,,,,,,,,,,
+A0180,0,,1011,Whenever counters put,may,,this,anyone,,,,,,,,,,,,,,,,,,,,,,,,,,,"Whenever one or more Dice Counters are put on this, Shield this.","Whenever counters put (subject: this, by: anyone) [may]: Shield this"
+A0180,1,,2003,Shield,,,,,,,this,,,,,,,,,,,,,,,,,,,,,,,,,
+A0181,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Event effect: Deal 1 damage to any non-ethereal object
+A0181,1,,2007,Damage,,,,,1,,any non-ethereal object,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0182,0,,1008,Whenever activates,may,,a support character,you,,,,,,,,,,,,,,,,,,,,,,,,,,,"Whenever you activate a support character, roll [W] if you control two or fewer support characters.","Whenever activates (subject: a support character, by: you) [may]: Roll [White] if you control 2 or fewer support characters"
+A0182,1,,2021,Roll,,you control 2 or fewer support characters,,,,,,1,,White,,,,,,,,,,,,,,,,,,,,,,
+A0183,0,,3001,Energy,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,Draw 2.,"1 Energy, sacrifice a support character: Draw 2"
+A0183,1,cost,2013,Sacrifice,,,,,1,,a support character,,,,,,,,,,,,,,,,,,,,,,,,,
+A0183,2,then,2001,Draw,,,,you,,,,2,,,,,,,,,,,,,,,,,,,,,,,,
+A0184,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may Draw 2 and discard two cards.",When activated (subject: this) [may]: Draw 2. Discard 2 cards
+A0184,1,,2001,Draw,,,,you,,,,2,,,,,,,,,,,,,,,,,,,,,,,,
+A0184,2,then,2030,Discard,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0185,0,,3001,Energy,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,Return an event card from your discard to your hand.,"1 Energy, discard 1 card: Return 1 event card from your discard to your hand"
+A0185,1,cost,2030,Discard,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0185,2,then,2035,Return from discard,,,,,1,,an event card,,,,,,,,,,,,,,,,,,,,,,,,,
+A0186,0,,1010,Whenever attaches,may,,this,you,,,,,,,,,,,,,,,,,,,,,,,,,,,"Whenever you attach an object to this, roll [R].","Whenever attaches (subject: this, by: you) [may]: Roll [Red]"
+A0186,1,,2021,Roll,,,,,,,,1,,Red,,,,,,,,,,,,,,,,,,,,,,
+A0187,0,,3001,Energy,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,Return a support attachment you control to its owner's hand.,1 Energy: Return a support attachment you control to its owner's hand
+A0187,1,,2014,Return to hand,,,,,1,,a support attachment you control,,,,,,,,,,,,,,,,,,,,,,,,,
+A0188,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may ready a support character with total card cost two or less.",When activated (subject: this) [may]: Ready a support character with total card cost two or less
+A0188,1,,2010,Ready,,,,,1,,a support character with total card cost two or less,,,,,,,,,,,,,,,,,,,,,,,,,
+A0189,0,,3001,Energy,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,Shield 2.,2 Energy: Shield 2
+A0189,1,,2003,Shield,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,
+A0190,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may sacrifice a support character to roll [Y].",When activated (subject: this) [may]: Sacrifice a support character to Roll [Yellow]
+A0190,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0190,1.1,cost,2013,Sacrifice,,,,,1,,a support character,,,,,,,,,,,,,,,,,,,,,,,,,
+A0190,1.2,then,2021,Roll,,,,,,,,1,,Yellow,,,,,,,,,,,,,,,,,,,,,,
+A0191,0,,3001,Energy,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,Resolve up to two dice as if they showed Mental Damage.,1 Energy: Resolve up to 2 dice as if Mental Damage
+A0191,1,,2025,Resolve as,,,,,up to 2,,,,,,,,,,,,,Mental Damage,,,,,,,,,,,,,,
+A0192,0,,1007,Whenever plays,may,,an event,you,,,,,,,,,,,,,,,,,,,,,,,,,,,"Whenever you play an event, you may have any player discard a number of cards from the top of their deck equal half of that event's total card cost, rounded up.","Whenever plays (subject: an event, by: you) [may]: A player of your choice discards the top X cards of their deck, where X is half that event's total card cost, rounded up"
+A0192,1,,2031,Mill,,,,any player,,,,X: half that event's total card cost,,,,,,,your,,,,,,,,,,,,,,,,,
+A0193,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may play a character with this paying (U) towards it.",When activated (subject: this) [may]: Play a character with this paying (U) towards it
+A0193,1,,2041,Play,,,,you,1,,a character,,,,,,,,,your hand,,,,(U),,,,,,,,,,,,
+A0194,0,,3001,Energy,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,"Put a card in a discard on the bottom of its owner's deck. If that card was a character, Heal 1. (Remove 1 damage from a hero you control.)",1 Energy: Put a card from a discard on the bottom of its owner's deck. Heal 1 if it was a character
+A0194,1,,2037,Cards to deck,,,,,1,,a card,,,,,,,,,a discard,bottom,,,,,,,,,,,,,,,
+A0194,2,then,2004,Heal,,it was a character,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0195,0,,3001,Energy,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,Swift,Swift - remove a Shield from any object. (The initiative is retained after taking Swift actions.),1 Energy: Swift - Remove a Shield from any object
+A0195,1,,2016,Remove Shield,,,,,1,,any object,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0196,0,,3001,Energy,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,Exhaust any support character.,2 Energy: Exhaust any support character
+A0196,1,,2009,Exhaust,,,,,1,,any support character,,,,,,,,,,,,,,,,,,,,,,,,,
+A0197,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, roll [Y] if there are six or more character cards among all discards.",When activated (subject: this) [may]: Roll [Yellow] if there are 6 or more character cards among all discards
+A0197,1,,2021,Roll,,there are 6 or more character cards among all discards,,,,,,1,,Yellow,,,,,,,,,,,,,,,,,,,,,,
+A0198,0,,3001,Energy,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,Resolve one dice as if it showed Modify.,1 Energy: Resolve 1 dice as if Modify
+A0198,1,,2025,Resolve as,,,,,1,,,,,,,,,,,,,Modify,,,,,,,,,,,,,,
+A0199,0,,1005,When discarded from play,may,,a character you control,anyone,,,,,,,,,,,,,,,,,,,,,,,,,,,"Whenever a character you control is discarded from play, you may roll [B].","When discarded from play (subject: a character you control, by: anyone) [may]: Roll [Black]"
+A0199,1,,2021,Roll,,,,,,,,1,,Black,,,,,,,,,,,,,,,,,,,,,,
+A0200,0,,3001,Energy,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,Rend 1.,1 Energy: Rend 1
+A0200,1,,2002,Rend,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0201,0,,1005,When discarded from play,may,,this,anyone,,,,,,,,,,,,,,,,,,,,,,,,,,,"When this is discarded from play, Draw 1.","When discarded from play (subject: this, by: anyone) [may]: Draw 1"
+A0201,1,,2001,Draw,,,,you,,,,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0202,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may sacrifice a support character to roll [R][G].","When activated (subject: this) [may]: Sacrifice a support character to Roll [Red], then Roll [Green]"
+A0202,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0202,1.1,cost,2013,Sacrifice,,,,,1,,a support character,,,,,,,,,,,,,,,,,,,,,,,,,
+A0202,1.2,then,2021,Roll,,,,,,,,1,,Red,,,,,,,,,,,,,,,,,,,,,,
+A0202,1.3,then,2021,Roll,,,,,,,,1,,Green,,,,,,,,,,,,,,,,,,,,,,
+A0203,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may sacrifice a support character to Heal 2.",When activated (subject: this) [may]: Sacrifice a support character to Heal 2
+A0203,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0203,1.1,cost,2013,Sacrifice,,,,,1,,a support character,,,,,,,,,,,,,,,,,,,,,,,,,
+A0203,1.2,then,2004,Heal,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,
+A0204,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may discard up to three cards to roll that many [W].",When activated (subject: this) [may]: Discard up to 3 cards to Roll that many [White]
+A0204,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0204,1.1,cost,2030,Discard,,,,,up to 3,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0204,1.2,then,2021,Roll,,,,,,,,that many,,White,,,,,,,,,,,,,,,,,,,,,,
+A0205,0,,7009,Costs less,,,,,,,,,,,,,,,,,,,,,,(U),a character you control with an attachment,,,,,,,,(U) less for each character you control with an attachment,"Costs less (cost: (U), for each: a character you control with an attachment)"
+A0206,0,,1005,When discarded from play,may,,this,anyone,,,,,,,,,,,,,,,,,,,,,,,,,,,"When this is discarded from play, create a Sentinel token.","When discarded from play (subject: this, by: anyone) [may]: Create a Sentinel token"
+A0206,1,,2029,Create token,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,Sentinel,,,
+A0207,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Event effect: Choose one or both: - Modify 2, or - Sabotage 2"
+A0207,1,,4004,Choose,,,,,1 to 2,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0207,1.1,,2005,Modify,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,
+A0207,1.2,or,2006,Sabotage,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,
+A0208,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - Shield 1.,Arrival (subject: this) [may]: Shield 1
+A0208,1,,2003,Shield,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0209,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may sacrifice this to roll [W].",When activated (subject: this) [may]: Sacrifice this to Roll [White]
+A0209,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0209,1.1,cost,2013,Sacrifice,,,,,,,this,,,,,,,,,,,,,,,,,,,,,,,,,
+A0209,1.2,then,2021,Roll,,,,,,,,1,,White,,,,,,,,,,,,,,,,,,,,,,
+A0210,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Event effect: Deal 3 damage to any non-mechanical object
+A0210,1,,2007,Damage,,,,,1,,any non-mechanical object,3,,,,,,,,,,,,,,,,,,,,,,,,
+A0211,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Event effect: Deal 3 damage to each support character. Remove a Shield from each object
+A0211,1,,2007,Damage,,,,,,,each support character,3,,,,,,,,,,,,,,,,,,,,,,,,
+A0211,2,then,2016,Remove Shield,,,,,,,each object,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0212,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, reveal the top five cards of your deck. You may play a revealed character from among them with this paying (U)(U) towards it, then put the rest on the bottom of your deck.","When activated (subject: this) [may]: Reveal the top 5 cards of your deck, you may play a character from among them with this paying (U)(U) towards it, then put the rest on the bottom"
+A0212,1,,2032,Dig,,,,,up to 1,,a character,5,,,,,,,your,,play,,,(U)(U),bottom,,,,,,,,,reveal,,
+A0213,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Event effect: Deal 2 damage to a support character
+A0213,1,,2007,Damage,,,,,1,,a support character,2,,,,,,,,,,,,,,,,,,,,,,,,
+A0214,0,,1001,Arrival,must,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - you must sacrifice a support character.,Arrival (subject: this) [must]: Sacrifice a support character
+A0214,1,,2013,Sacrifice,,,,,1,,a support character,,,,,,,,,,,,,,,,,,,,,,,,,
+A0215,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - you may sacrifice another support character to destroy an ethereal support.,Arrival (subject: this) [may]: Sacrifice another support character to Destroy an ethereal support
+A0215,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0215,1.1,cost,2013,Sacrifice,,,,,1,,another support character,,,,,,,,,,,,,,,,,,,,,,,,,
+A0215,1.2,then,2008,Destroy,,,,,1,,an ethereal support,,,,,,,,,,,,,,,,,,,,,,,,,
+A0216,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Event effect: Choose one: - Deal 5 damage to a support character, or - Return up to 2 character cards from your discard to your hand"
+A0216,1,,4004,Choose,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0216,1.1,,2007,Damage,,,,,1,,a support character,5,,,,,,,,,,,,,,,,,,,,,,,,
+A0216,1.2,or,2035,Return from discard,,,,,up to 2,,character cards,,,,,,,,,,,,,,,,,,,,,,,,,
+A0217,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Event effect: Choose one or both: - Rend 1, or - Deal 4 damage to a support attachment or an ethereal support"
+A0217,1,,4004,Choose,,,,,1 to 2,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0217,1.1,,2002,Rend,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0217,1.2,or,2007,Damage,,,,,1,,a support attachment or an ethereal support,4,,,,,,,,,,,,,,,,,,,,,,,,
+A0218,0,,1005,When discarded from play,may,,this,anyone,,,,,,,,,,,,,,,,,,,,,,,,,,,"When this is discarded from play, Modify 1.","When discarded from play (subject: this, by: anyone) [may]: Modify 1"
+A0218,1,,2005,Modify,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0219,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Event effect: Choose one: - Sabotage up to 1 dice showing Physical Damage, or - Sabotage up to 1 dice showing Mental Damage. If you control a support character with total card cost two or less, you may choose both"
+A0219,1,,4004,Choose,,,,,1,,,,,,,,,,,,,,,,,,,,,,you control a support character with total card cost two or less,,,,,
+A0219,1.1,,2006,Sabotage,,,,,,,,1,,,,showing Physical Damage,,,,,,,,,,,,,,,,,,,,
+A0219,1.2,or,2006,Sabotage,,,,,,,,1,,,,showing Mental Damage,,,,,,,,,,,,,,,,,,,,
+A0220,0,,1010,Whenever attaches,may,,attached character,you,,,,,,,,,,,,,,,,,,,,,,,,,,another,"Whenever you attach another object to attached character, Shield that character.","Whenever attaches (subject: attached character, by: you, options: another) [may]: Shield that card"
+A0220,1,,2003,Shield,,,,,,,that character,,,,,,,,,,,,,,,,,,,,,,,,,
+A0221,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - Draw 2.,Arrival (subject: this) [may]: Draw 2
+A0221,1,,2001,Draw,,,,you,,,,2,,,,,,,,,,,,,,,,,,,,,,,,
+A0222,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - you may play a character from your discard with this paying (U) towards it.,Arrival (subject: this) [may]: Play a character from your discard with this paying (U) towards it
+A0222,1,,2041,Play,,,,you,1,,a character,,,,,,,,,your discard,,,,(U),,,,,,,,,,,,
+A0223,0,,1005,When discarded from play,may,,a character you control,anyone,,,,,,,,,,,,,,,,,,,,,,,,,,,"Whenever a character you control is discarded from play, roll [B].","When discarded from play (subject: a character you control, by: anyone) [may]: Roll [Black]"
+A0223,1,,2021,Roll,,,,,,,,1,,Black,,,,,,,,,,,,,,,,,,,,,,
+A0224,0,,1005,When discarded from play,may,,this,anyone,,,,,,,,,,,,,,,,,,,,,,,,,,,"When this is discarded from play, this deals 3 damage to any character.","When discarded from play (subject: this, by: anyone) [may]: Deal 3 damage to any character"
+A0224,1,,2007,Damage,,,,,1,,any character,3,,,,,,,,,,,,,,,,,,,,,,,,
+A0225,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Event effect: Deal 3 damage to an ethereal support
+A0225,1,,2007,Damage,,,,,1,,an ethereal support,3,,,,,,,,,,,,,,,,,,,,,,,,
+A0226,0,,1010,Whenever attaches,may,,this,you,,,,,,,,,,,,,,,,,,,,,,,,,,,"Whenever you attach an object to this, you may ready this.","Whenever attaches (subject: this, by: you) [may]: Ready this"
+A0226,1,,2010,Ready,,,,,,,this,,,,,,,,,,,,,,,,,,,,,,,,,
+A0227,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Arrival - you may play an attachment onto this, with this paying (U)(U)(U) towards it.",Arrival (subject: this) [may]: Play an attachment onto this with this paying (U)(U)(U) towards it
+A0227,1,,2041,Play,,,,you,1,,an attachment,,,,,,,,,your hand,,,,(U)(U)(U),,,,,,,,,,onto this,,
+A0228,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Event effect: Destroy a support character. Modify 2 if it is an object with total card cost 3 or less
+A0228,1,,2008,Destroy,,,,,1,,a support character,,,,,,,,,,,,,,,,,,,,,,,,,
+A0228,2,then,2005,Modify,,it is an object with total card cost 3 or less,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,
+A0229,0,,1001,Arrival,must,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - you must exhaust this unless you discard a card.,Arrival (subject: this) [must]: Exhaust this unless you discard 1 card
+A0229,1,,2009,Exhaust,,,,,,,this,,,,,,,,,,,,,,,,,,,,,,,,,
+A0229,1.1,unless,2030,Discard,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0230,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Arrival - choose one: - Shield 1, or - Sabotage 1.","Arrival (subject: this) [may]: Choose one: - Shield 1, or - Sabotage 1"
+A0230,1,,4004,Choose,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0230,1.1,,2003,Shield,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0230,1.2,or,2006,Sabotage,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0231,0,,7009,Costs less,,there are 6 or more character cards among all discards,,,,,,,,,,,,,,,,,,,,(2),,,,,,,,,(1)(1) less if there are 6 or more character cards among all discards,Costs less (cost: (2)) [if there are 6 or more character cards among all discards]
+A0232,0,,1005,When discarded from play,may,,a support character you control,anyone,,,,,,,,,,,,,,,,,,,,,,,,,,,"Whenever a support character you control is discarded from play, you may put a [W] Counter on this.","When discarded from play (subject: a support character you control, by: anyone) [may]: Put a [White] Counter on this"
+A0232,1,,2017,Put counters,,,,,,,this,1,,White,,,,,,,,,,,,,,,,,,,,,,
+A0233,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Event effect: Each player draws or discards until they have 3 cards in hand
+A0233,1,,2038,Hand to size,,,,each player,,,,3,,,,,,,,,,,,,,,,,,,,,,,,
+A0234,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Event effect: Destroy a support attachment
+A0234,1,,2008,Destroy,,,,,1,,a support attachment,,,,,,,,,,,,,,,,,,,,,,,,,
+A0235,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Event effect: Resolve 1 dice not showing Damage at +1
+A0235,1,,2025,Resolve as,,,,,1,,,,,,,not showing Damage,,,,,,,+1,,,,,,,,,,,,,
+A0236,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Event effect: Deal 5 damage to a support character, attachment, or structure"
+A0236,1,,2007,Damage,,,,,1,,"a support character, attachment, or structure",5,,,,,,,,,,,,,,,,,,,,,,,,
+A0237,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Event effect: Activate any character you control
+A0237,1,,2011,Activate,,,,,1,,any character you control,,,,,,,,,,,,,,,,,,,,,,,,,
+A0238,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Event effect: Deal 2 damage to an organic support
+A0238,1,,2007,Damage,,,,,1,,an organic support,2,,,,,,,,,,,,,,,,,,,,,,,,
+A0239,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Event effect: Sabotage up to 2 dice showing Damage
+A0239,1,,2006,Sabotage,,,,,,,,2,,,,showing Damage,,,,,,,,,,,,,,,,,,,,
+A0240,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, deal 1 damage to any hero.",When activated (subject: this) [may]: Deal 1 damage to any hero
+A0240,1,,2007,Damage,,,,,1,,any hero,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0241,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, each player discards the top two cards of their deck.",When activated (subject: this) [may]: Each player discards the top 2 cards of their deck
+A0241,1,,2031,Mill,,,,each player,,,,2,,,,,,,your,,,,,,,,,,,,,,,,,
+A0242,0,,3001,Energy,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,"Put a card from a discard on the bottom of its owner's deck. If it was mechanical, roll [R].",1 Energy: Put a card from a discard on the bottom of its owner's deck. Roll [Red] if it was a mechanical card
+A0242,1,,2037,Cards to deck,,,,,1,,a card,,,,,,,,,a discard,bottom,,,,,,,,,,,,,,,
+A0242,2,then,2021,Roll,,it was a mechanical card,,,,,,1,,Red,,,,,,,,,,,,,,,,,,,,,,
+A0243,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, create a Scrap token.",When activated (subject: this) [may]: Create a Scrap token
+A0243,1,,2029,Create token,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,Scrap,,,
+A0244,0,,3001,Energy,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,Roll [G].,"1 Energy, sacrifice a structure: Roll [Green]"
+A0244,1,cost,2013,Sacrifice,,,,,1,,a structure,,,,,,,,,,,,,,,,,,,,,,,,,
+A0244,2,then,2021,Roll,,,,,,,,1,,Green,,,,,,,,,,,,,,,,,,,,,,
+A0245,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may activate a structure you control.",When activated (subject: this) [may]: Activate a structure you control
+A0245,1,,2011,Activate,,,,,1,,a structure you control,,,,,,,,,,,,,,,,,,,,,,,,,
+A0246,0,,3001,Energy,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,Resolve up to two dice as if they showed Draw.,1 Energy: Resolve up to 2 dice as if Draw
+A0246,1,,2025,Resolve as,,,,,up to 2,,,,,,,,,,,,,Draw,,,,,,,,,,,,,,
+A0247,0,,3001,Energy,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,"You may remove a Shield from any hero, then you may activate this.","1 Energy: You may remove a Shield from any hero. If you do, you may activate this"
+A0247,1,,2016,Remove Shield,may,,,,1,,any hero,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0247,2,if you do,2011,Activate,may,,,,,,this,,,,,,,,,,,,,,,,,,,,,,,,,
+A0248,0,,3001,Energy,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,Heal 2 this.,2 Energy: Heal 2 this
+A0248,1,,2004,Heal,,,,,,,this,2,,,,,,,,,,,,,,,,,,,,,,,,
+A0249,0,,1003,When exhausted,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When exhausted, roll [U] then Modify 1.",When exhausted (subject: this) [may]: Roll [Blue]. Modify 1
+A0249,1,,2021,Roll,,,,,,,,1,,Blue,,,,,,,,,,,,,,,,,,,,,,
+A0249,2,then,2005,Modify,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0250,0,,3001,Energy,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,Swift,Swift - activate this.,1 Energy: Swift - Activate this
+A0250,1,,2011,Activate,,,,,,,this,,,,,,,,,,,,,,,,,,,,,,,,,
+A0251,0,,1003,When exhausted,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When exhausted, you may remove a Shield from any object.",When exhausted (subject: this) [may]: Remove a Shield from any character you control
+A0251,1,,2016,Remove Shield,,,,,1,,any object,1,,,,,,,,,,,,,,,,,,,,,,chosen as it happens,,
+A0252,0,,3001,Energy,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,Create [W] showing Damage.,1 Energy: Create [White] showing Damage
+A0252,1,,2022,Create dice,,,,,,,,1,,White,,showing Damage,,,,,,,,,,,,,,,,,,,,
+A0253,0,,3001,Energy,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,Look at any player's hand.,1 Energy: Look at any player's hand
+A0253,1,,2033,Look at hand,,,,,,,,,,,,,,,any player's,,,,,,,,,,,,,,,,,
+A0254,0,,7035,Instead,,no gems were paid to play it,,anyone,,,a character,,,,,,,,,,,,,,,,,,arrive,Suspend it,,,,,"If a character would arrive and no gems were paid to play it, Suspend it instead","Instead (would: arrive, target: a character, instead: Suspend it, by: anyone) [if no gems were paid to play it]"
+A0255,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Event effect: Choose one: - Deal 2 damage to a support attachment, or - Deal 2 damage to any character"
+A0255,1,,4004,Choose,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0255,1.1,,2007,Damage,,,,,1,,a support attachment,2,,,,,,,,,,,,,,,,,,,,,,,,
+A0255,1.2,or,2007,Damage,,,,,1,,any character,2,,,,,,,,,,,,,,,,,,,,,,,,
+A0256,0,,7006,Specialized,,,,,,,,,,,,,,,,,,,,,,,,,,,,Vince Teem,,,,Specialized (hero: Vince Teem)
+A0257,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Event effect: Resolve up to 2 dice as if Sabotage
+A0257,1,,2025,Resolve as,,,,,up to 2,,,,,,,,,,,,,Sabotage,,,,,,,,,,,,,,
+A0258,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - create two Scrap tokens.,Arrival (subject: this) [may]: Create 2 Scrap tokens
+A0258,1,,2029,Create token,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,Scrap,,,
+A0259,0,,7004,Operate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Operate: Exhaust 2 characters you control
+A0259,1,cost,2009,Exhaust,,,,,2,,characters you control,,,,,,,,,,,,,,,,,,,,,,,,,
+A0260,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, deal 2 damage to any character.",When activated (subject: this) [may]: Deal 2 damage to any character
+A0260,1,,2007,Damage,,,,,1,,any character,2,,,,,,,,,,,,,,,,,,,,,,,,
+A0261,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Event effect: Choose one or both: - Draw 1, or - Deal 4 damage to a non-ethereal support"
+A0261,1,,4004,Choose,,,,,1 to 2,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0261,1.1,,2001,Draw,,,,you,,,,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0261,1.2,or,2007,Damage,,,,,1,,a non-ethereal support,4,,,,,,,,,,,,,,,,,,,,,,,,
+A0262,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - you may activate any two characters you control.,Arrival (subject: this) [may]: Activate 2 characters you control
+A0262,1,,2011,Activate,,,,,2,,characters you control,,,,,,,,,,,,,,,,,,,,,,,,,
+A0263,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - Shield this.,Arrival (subject: this) [may]: Shield this
+A0263,1,,2003,Shield,,,,,,,this,,,,,,,,,,,,,,,,,,,,,,,,,
+A0264,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - roll [B].,Arrival (subject: this) [may]: Roll [Black]
+A0264,1,,2021,Roll,,,,,,,,1,,Black,,,,,,,,,,,,,,,,,,,,,,
+A0265,0,,1004,When sacrificed,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When this is sacrificed, you may pay (R) to put a [P] Counter on a mechanical support you control.",When sacrificed (subject: this) [may]: Pay (R) to Put a [Purple] Counter on a mechanical support you control
+A0265,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0265,1.1,cost,2046,Pay gems,,,,,,,,,,,,,,,,,,,,,,(R),,,,,,,,,,
+A0265,1.2,then,2017,Put counters,,,,,1,,a mechanical support you control,1,,Purple,,,,,,,,,,,,,,,,,,,,,,
+A0266,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may sacrifice a structure to put a [R] Counter on any character you control.",When activated (subject: this) [may]: Sacrifice a structure to Put a [Red] Counter on any character you control
+A0266,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0266,1.1,cost,2013,Sacrifice,,,,,1,,a structure,,,,,,,,,,,,,,,,,,,,,,,,,
+A0266,1.2,then,2017,Put counters,,,,,1,,any character you control,1,,Red,,,,,,,,,,,,,,,,,,,,chosen as it happens,,
+A0267,0,,3001,Energy,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,Swift,Swift - remove a Shield from any object.,"1 Energy, sacrifice this: Swift - Remove a Shield from any object"
+A0267,1,cost,2013,Sacrifice,,,,,,,this,,,,,,,,,,,,,,,,,,,,,,,,,
+A0267,2,then,2016,Remove Shield,,,,,1,,any object,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0268,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - create a Scrap token.,Arrival (subject: this) [may]: Create a Scrap token
+A0268,1,,2029,Create token,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,Scrap,,,
+A0269,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Event effect: Choose one or both: - Sabotage 1, or - Deal 5 damage to a support character"
+A0269,1,,4004,Choose,,,,,1 to 2,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0269,1.1,,2006,Sabotage,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0269,1.2,or,2007,Damage,,,,,1,,a support character,5,,,,,,,,,,,,,,,,,,,,,,,,
+A0270,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Event effect: Shield 1. Roll [Yellow]. Create an exhausted basic locale token
+A0270,1,,2003,Shield,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0270,2,then,2021,Roll,,,,,,,,1,,Yellow,,,,,,,,,,,,,,,,,,,,,,
+A0270,3,then,2029,Create token,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,basic locale,exhausted,,
+A0271,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - you may discard a card to return a mechanical card from your discard to your hand.,Arrival (subject: this) [may]: Discard 1 card to Return 1 mechanical card from your discard to your hand
+A0271,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0271,1.1,cost,2030,Discard,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0271,1.2,then,2035,Return from discard,,,,,1,,a mechanical card,,,,,,,,,,,,,,,,,,,,,,,,,
+A0272,0,,7004,Operate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Operate: Discard 1 card
+A0272,1,cost,2030,Discard,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0273,0,,1020,While paying operate,may,,a mechanical card,you,,,,,,,,,,,,,,,,,,,,,,,,,,,"Whenever you discard a mechanical card while paying this Operate cost, create a Scrap token.","While paying operate (subject: a mechanical card, by: you) [may]: Create a Scrap token"
+A0273,1,,2029,Create token,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,Scrap,,,
+A0274,0,,7006,Specialized,,,,,,,,,,,,,,,,,,,,,,,,,,,,Goyourner Mar,,,,Specialized (hero: Goyourner Mar)
+A0275,0,,1017,Whenever digs in,may,,,you,,,,,,,,,,,,,,,,,,,,,,,,,,,"Whenever you Dig In, you may remove up to two dice you control to create a Scrap token for each.",Whenever digs in (by: you) [may]: Remove up to 2 dice you control to Create that many Scrap tokens
+A0275,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0275,1.1,cost,2027,Spend dice,,,,,up to 2,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0275,1.2,then,2029,Create token,,,,,,,,that many,,,,,,,,,,,,,,,,,,,,,Scrap,,,
+A0276,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, Modify 1.",When activated (subject: this) [may]: Modify 1
+A0276,1,,2005,Modify,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0277,0,,1008,Whenever activates,may,,an Engineer,you,,,,,,,,,,,,,,,,,,,,,,,,,,,"Whenever you activate an Engineer, you may activate this.","Whenever activates (subject: an Engineer, by: you) [may]: Activate this"
+A0277,1,,2011,Activate,,,,,,,this,,,,,,,,,,,,,,,,,,,,,,,,,
+A0278,0,,7001,Swift,,,,,,,this,,,,,,,,,,,,,,,,,activate,,,,,,,,"Swift (action: activate, target: this)"
+A0279,0,,7004,Operate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Operate: Exhaust a character you control
+A0279,1,cost,2009,Exhaust,,,,,1,,a character you control,,,,,,,,,,,,,,,,,,,,,,,,,
+A0280,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Event effect: Deal 3 damage to a support character
+A0280,1,,2007,Damage,,,,,1,,a support character,3,,,,,,,,,,,,,,,,,,,,,,,,
+A0281,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - you may deal 1 damage to any mechanical object.,Arrival (subject: this) [may]: Deal 1 damage to any mechanical object
+A0281,1,,2007,Damage,,,,,1,,any mechanical object,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0282,0,,7009,Costs less,,,,,,,a character you control,,,,,,,,,,,,,,,(1),,exhaust,,,,,,,(1) less for each you exhaust as you play this: a character you control,"Costs less (cost: (1), action: exhaust, target: a character you control)"
+A0283,0,,1004,When sacrificed,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When this is sacrificed, you may pay (R)(1)(1) to Sabotage 3.",When sacrificed (subject: this) [may]: Pay (R)(2) to Sabotage 3
+A0283,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0283,1.1,cost,2046,Pay gems,,,,,,,,,,,,,,,,,,,,,,(R)(2),,,,,,,,,,
+A0283,1.2,then,2006,Sabotage,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,
+A0284,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may resolve any number of dice showing Shield as if they showed Physical Damage.",When activated (subject: this) [may]: Resolve any number of dice showing Shield as if Physical Damage
+A0284,1,,2025,Resolve as,,,,,any number,,,,,,,showing Shield,,,,,,Physical Damage,,,,,,,,,,,,,,
+A0285,0,,1011,Whenever counters put,may,,this,anyone,,,,,,,,,,,,,,,,,,,,,,,,,,each counter,"Whenever a counter is put on this, create a Scrap token.","Whenever counters put (subject: this, by: anyone, options: each counter) [may]: Create a Scrap token"
+A0285,1,,2029,Create token,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,Scrap,,,
+A0286,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, roll [P] if you control a Component.",When activated (subject: this) [may]: Roll [Purple] if you control a Component
+A0286,1,,2021,Roll,,you control a Component,,,,,,1,,Purple,,,,,,,,,,,,,,,,,,,,,,
+A0287,0,,1017,Whenever digs in,may,,,you,,,,,,,,,,,,,,,,,,,,,,,,,,,"Whenever you Dig In, Shock a structure. It cannot be activated until next round.",Whenever digs in (by: you) [may]: Shock a structure. It cannot be activated until next round
+A0287,1,,2012,Shock,,,,,1,,a structure,,,,,,,,,,,,,,,,,,,,,,,,,
+A0287,2,then,2048,Until next round,,,,,,,it,,,,,,,,,,,,,,,,,activate,,,,,,,,
+A0288,0,,1011,Whenever counters put,may,,an object an opponent controls,an opponent,,,,,,,,,,,,,,,,,,,,,,,,,,each counter,"Whenever an opponent puts a counter on an object they control, you may Shock this to remove that counter.","Whenever counters put (subject: an object an opponent controls, by: an opponent, options: each counter) [may]: Shock this to Remove a Dice Counter from that card"
+A0288,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0288,1.1,cost,2012,Shock,,,,,,,this,,,,,,,,,,,,,,,,,,,,,,,,,
+A0288,1.2,then,2019,Remove counter,,,,,,,,1,that counter,,,,,,,that object,,,,,,,,,,,,,,,,
+A0289,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Event effect: Choose one: - Put a [Purple] Counter on a support character, then Activate it, or - Deal 5 damage to a support attachment"
+A0289,1,,4004,Choose,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0289,1.1,,2017,Put counters,,,,,1,,a support character,1,,Purple,,,,,,,,,,,,,,,,,,,,,,
+A0289,1.2,then,2011,Activate,,,,,,,it,,,,,,,,,,,,,,,,,,,,,,,,,
+A0289,1.3,or,2007,Damage,,,,,1,,a support attachment,5,,,,,,,,,,,,,,,,,,,,,,,,
+A0290,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - roll [W][W].,Arrival (subject: this) [may]: Roll [White]. Roll [White]
+A0290,1,,2021,Roll,,,,,,,,1,,White,,,,,,,,,,,,,,,,,,,,,,
+A0290,2,then,2021,Roll,,,,,,,,1,,White,,,,,,,,,,,,,,,,,,,,,,
+A0291,0,,1017,Whenever digs in,may,,,you,,,,,,,,,,,,,,,,,,,,,,,,,,,"Whenever you Dig In, players cannot resolve Rend or take Tactical Reroll actions until next round.",Whenever digs in (by: you) [may]: Players cannot resolve Rend or take Tactical Reroll actions until next round
+A0291,1,,2048,Until next round,,,,,,,,,,,Rend,,,,,,,,,,,,,resolve; tactical reroll,,,,,,,,
+A0292,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - put up to three mechanical cards from your discard on the bottom of your deck to put a [B] Counter on each of up to that many mechanical supports.,Arrival (subject: this) [may]: Put up to 3 mechanical cards from your discard on the bottom of your deck to Put a [Black] Counter on any number of mechanical supports
+A0292,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0292,1.1,cost,2037,Cards to deck,,,,,up to 3,,mechanical cards,,,,,,,,,your discard,bottom,,,,,,,,,,,,,,,
+A0292,1.2,then,2017,Put counters,,,,,any number,up to that many,mechanical supports,1,,Black,,,,,,,,,,,,,,,,,,,,,,
+A0293,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may sacrifice a mechanical support to roll [R].",When activated (subject: this) [may]: Sacrifice a mechanical support to Roll [Red]
+A0293,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0293,1.1,cost,2013,Sacrifice,,,,,1,,a mechanical support,,,,,,,,,,,,,,,,,,,,,,,,,
+A0293,1.2,then,2021,Roll,,,,,,,,1,,Red,,,,,,,,,,,,,,,,,,,,,,
+A0294,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, reveal the top three cards of your deck. You may put a structure from among them into your hand, then put the rest on the bottom of your deck.","When activated (subject: this) [may]: Reveal the top 3 cards of your deck, put up to one structure from among them into your hand, then put the rest on the bottom"
+A0294,1,,2032,Dig,,,,,up to 1,,a structure,3,,,,,,,your,,hand,,,,bottom,,,,,,,,,reveal,,
+A0295,0,,3001,Energy,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,Resolve up to two dice as if they showed Modify.,1 Energy: Resolve up to 2 dice as if Modify
+A0295,1,,2025,Resolve as,,,,,up to 2,,,,,,,,,,,,,Modify,,,,,,,,,,,,,,
+A0296,0,,7029,May resolve as,,,,you,,,,,,,,,,,,Rend,Mental Damage,,,,,,,,,,,,,,,"May resolve as (from: Rend, to: Mental Damage, by: you)"
+A0297,0,,3001,Energy,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,You may resolve one dice as if it showed Sabotage.,2 Energy: You may resolve 1 dice as if Sabotage
+A0297,1,,2025,Resolve as,may,,,,1,,,,,,,,,,,,,Sabotage,,,,,,,,,,,,,,
+A0298,0,,7008,Shock to pay,,,,,,,a character,,,,,,,,,,,,,,,(Y),,,,,,,,,,"Shock to pay (target: a character, cost: (Y))"
+A0299,0,,3001,Energy,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,Move a Dice Counter from any character you control to another support character you control.,1 Energy: Move a Dice Counter from any character you control to another support character you control
+A0299,1,,2018,Move counters,,,,,,,,1,Dice Counter,,,,,,,any character you control,another support character you control,,,,,,,,,,,,,,,
+A0300,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may remove X dice showing Blank that you control to exhaust a support character with total card cost X or less.",When activated (subject: this) [may]: Remove any number of dice you control showing Blank to Exhaust a support character
+A0300,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0300,1.1,cost,2027,Spend dice,,,,,at least its cost,,,,,,,showing Blank,,,,,,,,,,,,,,,,,,,,
+A0300,1.2,then,2009,Exhaust,,,,,1,,a support character,,,,,,,,,,,,,,,,,,,,,,,,,
+A0301,0,,1021,End of logistics,may,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"At the end of the Logistics phase, Shield this.",End of logistics [may]: Shield this
+A0301,1,,2003,Shield,,,,,,,this,,,,,,,,,,,,,,,,,,,,,,,,,
+A0302,0,,3001,Energy,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,Deal 1 damage to any hero.,1 Energy: Deal 1 damage to any hero
+A0302,1,,2007,Damage,,,,,1,,any hero,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0303,0,,1007,Whenever plays,may,,an event,you,,,,,,,,,,,,,,,,,,,,,,,,,,,"Whenever you play an event, you may activate a character.","Whenever plays (subject: an event, by: you) [may]: Activate a character"
+A0303,1,,2011,Activate,,,,,1,,a character,,,,,,,,,,,,,,,,,,,,,,,,,
+A0304,0,,1007,Whenever plays,may,,a mechanical card,you,,,,,,,,,,,,,,,,,,,,,,,,,,,"Whenever you play a mechanical card, Shield this.","Whenever plays (subject: a mechanical card, by: you) [may]: Shield this"
+A0304,1,,2003,Shield,,,,,,,this,,,,,,,,,,,,,,,,,,,,,,,,,
+A0305,0,,3001,Energy,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,Create a Scrap token. (Scrap tokens sacrifice to roll [B].),"1 Energy, remove a Shield from this: Create a Scrap token"
+A0305,1,cost,2016,Remove Shield,,,,,,,this,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0305,2,then,2029,Create token,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,Scrap,,,
+A0306,0,,1004,When sacrificed,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When this is sacrificed, you may pay (Y)(1)(1) to deal 3 damage to a support character or support structure.",When sacrificed (subject: this) [may]: Pay (Y)(2) to Deal 3 damage to a support character or support structure
+A0306,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0306,1.1,cost,2046,Pay gems,,,,,,,,,,,,,,,,,,,,,,(Y)(2),,,,,,,,,,
+A0306,1.2,then,2007,Damage,,,,,1,,a support character or support structure,3,,,,,,,,,,,,,,,,,,,,,,,,
+A0307,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Event effect: Choose one: - Deal 5 damage to an ethereal support, or - Roll [Green], then Roll [Yellow]"
+A0307,1,,4004,Choose,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0307,1.1,,2007,Damage,,,,,1,,an ethereal support,5,,,,,,,,,,,,,,,,,,,,,,,,
+A0307,1.2,or,2021,Roll,,,,,,,,1,,Green,,,,,,,,,,,,,,,,,,,,,,
+A0307,1.3,then,2021,Roll,,,,,,,,1,,Yellow,,,,,,,,,,,,,,,,,,,,,,
+A0308,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Event effect: Sabotage 1. Modify 1. Create an exhausted basic locale token
+A0308,1,,2006,Sabotage,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0308,2,then,2005,Modify,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0308,3,then,2029,Create token,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,basic locale,exhausted,,
+A0309,0,,1008,Whenever activates,may,,an Engineer,you,,,,,,,,,,,,,,,,,,,,,,,,,,,"Whenever you activate an Engineer, you may exhaust this to create [W] showing Energy.","Whenever activates (subject: an Engineer, by: you) [may]: Exhaust this to Create [White] showing Energy"
+A0309,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0309,1.1,cost,2009,Exhaust,,,,,,,this,,,,,,,,,,,,,,,,,,,,,,,,,
+A0309,1.2,then,2022,Create dice,,,,,,,,1,,White,,showing Energy,,,,,,,,,,,,,,,,,,,,
+A0310,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Event effect: Look at any player's hand. They discard an event card of your choice
+A0310,1,,2033,Look at hand,,,,,,,,,,,,,,,any player's,,,,,,,,,,,,,,,,,
+A0310,2,then,2034,Discard chosen,,,,,1,,an event card,,,,,,,,,,,,,,,,,,,,,,,,,
+A0311,0,,1009,Whenever arrives,may,,an attachment you control,anyone,,,,,,,,,,,,,,,,,,,,,,,,,,,"Whenever an attachment arrives under your control, you may Shock this to put a [G] Counter on the object the attachment is attached to.","Whenever arrives (subject: an attachment you control, by: anyone) [may]: Shock this to Put a [Green] Counter on the object the attachment is attached to"
+A0311,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0311,1.1,cost,2012,Shock,,,,,,,this,,,,,,,,,,,,,,,,,,,,,,,,,
+A0311,1.2,then,2017,Put counters,,,,,,,the object the attachment is attached to,1,,Green,,,,,,,,,,,,,,,,,,,,,,
+A0312,0,,7006,Specialized,,,,,,,,,,,,,,,,,,,,,,,,,,,,Mavin Vuellmer,,,,Specialized (hero: Mavin Vuellmer)
+A0313,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, create [B][B][W][W], each showing Blank.",When activated (subject: this) [may]: Create [Black] showing Blank. Create [Black] showing Blank. Create [White] showing Blank. Create [White] showing Blank
+A0313,1,,2022,Create dice,,,,,,,,1,,Black,,showing Blank,,,,,,,,,,,,,,,,,,,,
+A0313,2,then,2022,Create dice,,,,,,,,1,,Black,,showing Blank,,,,,,,,,,,,,,,,,,,,
+A0313,3,then,2022,Create dice,,,,,,,,1,,White,,showing Blank,,,,,,,,,,,,,,,,,,,,
+A0313,4,then,2022,Create dice,,,,,,,,1,,White,,showing Blank,,,,,,,,,,,,,,,,,,,,
+A0314,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - you may activate attached character.,Arrival (subject: this) [may]: Activate attached character
+A0314,1,,2011,Activate,,,,,,,attached character,,,,,,,,,,,,,,,,,,,,,,,,,
+A0315,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Event effect: Create a Scrap token. Choose one: - Deal 5 damage to a support character, or - Deal 5 damage to a support structure"
+A0315,1,,2029,Create token,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,Scrap,,,
+A0315,2,then,4004,Choose,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0315,2.1,,2007,Damage,,,,,1,,a support character,5,,,,,,,,,,,,,,,,,,,,,,,,
+A0315,2.2,or,2007,Damage,,,,,1,,a support structure,5,,,,,,,,,,,,,,,,,,,,,,,,
+A0316,0,,7004,Operate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Operate: Deal 2 damage to a hero you control
+A0316,1,cost,2007,Damage,,,,,1,,a hero you control,2,,,,,,,,,,,,,,,,,,,,,,,,
+A0317,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - you may sacrifice a structure to deal 2 damage to any character.,Arrival (subject: this) [may]: Sacrifice a structure to Deal 2 damage to any character
+A0317,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0317,1.1,cost,2013,Sacrifice,,,,,1,,a structure,,,,,,,,,,,,,,,,,,,,,,,,,
+A0317,1.2,then,2007,Damage,,,,,1,,any character,2,,,,,,,,,,,,,,,,,,,,,,,,
+A0318,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Event effect: Put a [Black] Counter on up to 3 characters you control. You may activate up to 3 characters
+A0318,1,,2017,Put counters,,,,,up to 3,,characters you control,1,,Black,,,,,,,,,,,,,,,,,,,,,,
+A0318,2,then,2011,Activate,may,,,,up to 3,,characters,,,,,,,,,,,,,,,,,,,,,,,,,
+A0319,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Arrival - you may play a structure with this paying (Y) towards it, which arrives Shocked.","Arrival (subject: this) [may]: Play a structure with this paying (Y) towards it, which arrives Shocked"
+A0319,1,,2041,Play,,,,you,1,,a structure,,,,,,,,,your hand,,,,(Y),,,,,,,,,,Shocked,,
+A0320,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - you may sacrifice a structure to put a [R] Counter on attached character.,Arrival (subject: this) [may]: Sacrifice a structure to Put a [Red] Counter on attached character
+A0320,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0320,1.1,cost,2013,Sacrifice,,,,,1,,a structure,,,,,,,,,,,,,,,,,,,,,,,,,
+A0320,1.2,then,2017,Put counters,,,,,,,attached character,1,,Red,,,,,,,,,,,,,,,,,,,,,,
+A0321,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - you may sacrifice up to three structures to put that many [P] Counters on this.,Arrival (subject: this) [may]: Sacrifice up to 3 structures to Put that many [Purple] Counters on this
+A0321,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0321,1.1,cost,2013,Sacrifice,,,,,up to 3,,structures,,,,,,,,,,,,,,,,,,,,,,,,,
+A0321,1.2,then,2017,Put counters,,,,,,,this,that many,,Purple,,,,,,,,,,,,,,,,,,,,,,
+A0322,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - you may put a [W] Counter on a mechanical support.,Arrival (subject: this) [may]: Put a [White] Counter on a mechanical support
+A0322,1,,2017,Put counters,,,,,1,,a mechanical support,1,,White,,,,,,,,,,,,,,,,,,,,,,
+A0323,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may exhaust a structure you control to Draw 1.",When activated (subject: this) [may]: Exhaust a structure you control to Draw 1
+A0323,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0323,1.1,cost,2009,Exhaust,,,,,1,,a structure you control,,,,,,,,,,,,,,,,,,,,,,,,,
+A0323,1.2,then,2001,Draw,,,,you,,,,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0324,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - Sabotage 1.,Arrival (subject: this) [may]: Sabotage 1
+A0324,1,,2006,Sabotage,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0325,0,,1004,When sacrificed,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When this is sacrificed, you may Suspend each card from any discard.",When sacrificed (subject: this) [may]: Suspend each card from any discard
+A0325,1,,2042,Suspend,,,,,each,,,,,,,,,,,any discard,,,,,,,,,,,,,,,,
+A0326,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - put a [Y] Counter on any character you control.,Arrival (subject: this) [may]: Put a [Yellow] Counter on any character you control
+A0326,1,,2017,Put counters,,,,,1,,any character you control,1,,Yellow,,,,,,,,,,,,,,,,,,,,chosen as it happens,,
+A0327,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may sacrifice a Component to Draw 2.",When activated (subject: this) [may]: Sacrifice a Component to Draw 2
+A0327,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0327,1.1,cost,2013,Sacrifice,,,,,1,,a Component,,,,,,,,,,,,,,,,,,,,,,,,,
+A0327,1.2,then,2001,Draw,,,,you,,,,2,,,,,,,,,,,,,,,,,,,,,,,,
+A0328,0,,7006,Specialized,,,,,,,,,,,,,,,,,,,,,,,,,,,,Chryssy Aran,,,,Specialized (hero: Chryssy Aran)
+A0329,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Event effect: Ready a support character you control
+A0329,1,,2010,Ready,,,,,1,,a support character you control,,,,,,,,,,,,,,,,,,,,,,,,,
+A0330,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - put a [U] Counter on a support character you control.,Arrival (subject: this) [may]: Put a [Blue] Counter on a support character you control
+A0330,1,,2017,Put counters,,,,,1,,a support character you control,1,,Blue,,,,,,,,,,,,,,,,,,,,,,
+A0331,0,,1003,When exhausted,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When exhausted, you may resolve one dice.",When exhausted (subject: this) [may]: Resolve 1 dice
+A0331,1,,2025,Resolve as,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0332,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Arrival - you may activate another character you control, then you may move one counter from that character onto this.",Arrival (subject: this) [may]: Activate another character you control. You may move one counter from it to this
+A0332,1,,2011,Activate,,,,,1,,another character you control,,,,,,,,,,,,,,,,,,,,,,,,,
+A0332,2,then,2018,Move counters,may,,,,,,,1,counter,,,,,,,it,this,,,,,,,,,,,,,,,
+A0333,0,,1009,Whenever arrives,may,,a character you control,anyone,,,,,,,,,,,,,,,,,,,,,,,,,,,"Whenever a character arrives under your control, you may Shock this to put a [P] Counter on that character.","Whenever arrives (subject: a character you control, by: anyone) [may]: Shock this to Put a [Purple] Counter on that card"
+A0333,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0333,1.1,cost,2012,Shock,,,,,,,this,,,,,,,,,,,,,,,,,,,,,,,,,
+A0333,1.2,then,2017,Put counters,,,,,,,that character,1,,Purple,,,,,,,,,,,,,,,,,,,,,,
+A0334,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - you may sacrifice another structure to activate this without paying its Operate cost.,Arrival (subject: this) [may]: Sacrifice another structure to Activate this without paying its Operate cost
+A0334,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0334,1.1,cost,2013,Sacrifice,,,,,1,,another structure,,,,,,,,,,,,,,,,,,,,,,,,,
+A0334,1.2,then,2011,Activate,,,,,,,this,,,,,,,,,,,,,,,,,,,,,,,without paying its Operate cost,,
+A0335,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Event effect: Choose one: - Deal 5 damage to an organic support, or - Resolve up to 2 dice as if Physical Damage"
+A0335,1,,4004,Choose,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0335,1.1,,2007,Damage,,,,,1,,an organic support,5,,,,,,,,,,,,,,,,,,,,,,,,
+A0335,1.2,or,2025,Resolve as,,,,,up to 2,,,,,,,,,,,,,Physical Damage,,,,,,,,,,,,,,
+A0336,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Event effect: Choose one: - Deal 2 damage to an ethereal support, or - Deal 2 damage to a support structure"
+A0336,1,,4004,Choose,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0336,1.1,,2007,Damage,,,,,1,,an ethereal support,2,,,,,,,,,,,,,,,,,,,,,,,,
+A0336,1.2,or,2007,Damage,,,,,1,,a support structure,2,,,,,,,,,,,,,,,,,,,,,,,,
+A0337,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - you may sacrifice a structure to ready another structure.,Arrival (subject: this) [may]: Sacrifice a structure to Ready another structure
+A0337,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0337,1.1,cost,2013,Sacrifice,,,,,1,,a structure,,,,,,,,,,,,,,,,,,,,,,,,,
+A0337,1.2,then,2010,Ready,,,,,1,,another structure,,,,,,,,,,,,,,,,,,,,,,,,,
+A0338,0,,7010,Alternate cost,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Alternate cost: Exhaust any character you control
+A0338,1,cost,2009,Exhaust,,,,,1,,any character you control,,,,,,,,,,,,,,,,,,,,,,,,,
+A0339,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Event effect: Draw 1. Create a Scrap token
+A0339,1,,2001,Draw,,,,you,,,,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0339,2,then,2029,Create token,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,Scrap,,,
+A0340,0,,7037,Counts as,,,,,,,this,,,,,,,,,,,a structure,,,,,,sacrificing,,,,,,,This may be sacrificed as if it were a structure,"Counts as (target: this, as: a structure, action: sacrificing)"
+A0341,0,,1004,When sacrificed,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When this is sacrificed, create a Scrap token.",When sacrificed (subject: this) [may]: Create a Scrap token
+A0341,1,,2029,Create token,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,Scrap,,,
+A0342,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Event effect: Move one counter from any object to another object
+A0342,1,,2018,Move counters,,,,,,,,1,counter,,,,,,,any object,another object,,,,,,,,,,,,,,,
+A0343,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may deal 1 damage to a hero you control to Sabotage 1.",When activated (subject: this) [may]: Deal 1 damage to a hero you control to Sabotage 1
+A0343,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0343,1.1,cost,2007,Damage,,,,,1,,a hero you control,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0343,1.2,then,2006,Sabotage,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0344,0,,1009,Whenever arrives,may,,a structure you control,anyone,,,,,,,,,,,,,,,,,,,,,,,,,,,"Whenever this or another structure arrives under your control, roll [P].","Whenever arrives (subject: a structure you control, by: anyone) [may]: Roll [Purple]"
+A0344,1,,2021,Roll,,,,,,,,1,,Purple,,,,,,,,,,,,,,,,,,,,,,
+A0345,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may put an organic card from your discard on top of your deck.",When activated (subject: this) [may]: Put an organic card from your discard on top of your deck
+A0345,1,,2037,Cards to deck,,,,,1,,an organic card,,,,,,,,,your discard,top,,,,,,,,,,,,,,,
+A0346,0,,3001,Energy,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,Swift,Swift - Draw 2.,2 Energy: Swift - Draw 2
+A0346,1,,2001,Draw,,,,you,,,,2,,,,,,,,,,,,,,,,,,,,,,,,
+A0347,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may sacrifice a support character to Transmute each of up to two dice into [R].",When activated (subject: this) [may]: Sacrifice a support character to Transmute up to 2 dice you control each into Red
+A0347,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0347,1.1,cost,2013,Sacrifice,,,,,1,,a support character,,,,,,,,,,,,,,,,,,,,,,,,,
+A0347,1.2,then,2026,Transmute,,,,,up to 2,,,,,,,,,,,,Red,,,,,,,,,,,,,,,
+A0348,0,,3001,Energy,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,"Look at the top two cards of your deck. You may put one of them into your hand, then discard the rest.","1 Energy: Look at the top 2 cards of your deck, put up to one of them into your hand, then discard the rest"
+A0348,1,,2032,Dig,,,,,up to 1,,,2,,,,,,,your,,hand,,,,discard,,,,,,,,,,,
+A0349,0,,1007,Whenever plays,may,,a character,you,,,,,,,,,,,,,,,,,,,,,,,,,,,"Whenever you play a character, you may activate this.","Whenever plays (subject: a character, by: you) [may]: Activate this"
+A0349,1,,2011,Activate,,,,,,,this,,,,,,,,,,,,,,,,,,,,,,,,,
+A0350,0,,3001,Energy,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,"Reveal the top card of your deck, then choose one: - Play it, or - Discard it.","1 Energy: Reveal the top card of your deck, you may play a card from among them, paying its cost, then discard the rest"
+A0350,1,,2032,Dig,,,,,up to 1,,a card,1,,,,,,,your,,play,,,,discard,,,,,,,,,reveal,,
+A0351,0,,7008,Shock to pay,,,,,,,an event,,,,,,,,,,,,,,,(G),,,,,,,,,,"Shock to pay (target: an event, cost: (G))"
+A0352,0,,3001,Energy,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,Put a [P] Counter on this.,2 Energy: Put a [Purple] Counter on this
+A0352,1,,2017,Put counters,,,,,,,this,1,,Purple,,,,,,,,,,,,,,,,,,,,,,
+A0353,0,,1021,End of logistics,may,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"At the end of each Logistics phase, you may activate this.",End of logistics [may]: Activate this
+A0353,1,,2011,Activate,,,,,,,this,,,,,,,,,,,,,,,,,,,,,,,,,
+A0354,0,,3001,Energy,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,Transmute one dice you control into [G]. (Remove that dice to roll [G].),1 Energy: Transmute 1 dice you control each into Green
+A0354,1,,2026,Transmute,,,,,1,,,,,,,,,,,,Green,,,,,,,,,,,,,,,
+A0355,0,,1017,Whenever digs in,may,,,you,,,,,,,,,,,,,,,,,,,,,,,,,,,"Whenever you Dig In, deal 1 damage to any hero.",Whenever digs in (by: you) [may]: Deal 1 damage to any hero
+A0355,1,,2007,Damage,,,,,1,,any hero,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0356,0,,3001,Energy,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,Swift,"Swift - Draw 1, then discard a card.",1 Energy: Swift - Draw 1. Discard 1 card
+A0356,1,,2001,Draw,,,,you,,,,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0356,2,then,2030,Discard,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0357,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may exhaust a support character you control to put a [W] Counter on another support character.",When activated (subject: this) [may]: Exhaust a support character you control to Put a [White] Counter on another support character
+A0357,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0357,1.1,cost,2009,Exhaust,,,,,1,,a support character you control,,,,,,,,,,,,,,,,,,,,,,,,,
+A0357,1.2,then,2017,Put counters,,,,,1,,another support character,1,,White,,,,,,,,,,,,,,,,,,,,,,
+A0358,0,,3001,Energy,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,Roll [R][P].,2 Energy: Roll [Red]. Roll [Purple]
+A0358,1,,2021,Roll,,,,,,,,1,,Red,,,,,,,,,,,,,,,,,,,,,,
+A0358,2,then,2021,Roll,,,,,,,,1,,Purple,,,,,,,,,,,,,,,,,,,,,,
+A0359,0,,7029,May resolve as,,,,you,,,,,,,,,,,,Draw,Mental Damage,,,,,,,,,,,,,,,"May resolve as (from: Draw, to: Mental Damage, by: you)"
+A0360,0,,1001,Arrival,must,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Arrival - each player must put their hand on the bottom of their deck. Then, each player draws cards equal to the greatest number of cards put into a deck this way.","Arrival (subject: this) [must]: Each player puts their hand on the bottom of their deck, then draws the greatest number put into a deck this way"
+A0360,1,,2040,"Hands to bottom, draw",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0361,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - Shield 2.,Arrival (subject: this) [may]: Shield 2
+A0361,1,,2003,Shield,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,
+A0362,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may exhaust a Druid you control to put a [G] Counter on any character.",When activated (subject: this) [may]: Exhaust a Druid you control to Put a [Green] Counter on any character
+A0362,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0362,1.1,cost,2009,Exhaust,,,,,1,,a Druid you control,,,,,,,,,,,,,,,,,,,,,,,,,
+A0362,1.2,then,2017,Put counters,,,,,1,,any character,1,,Green,,,,,,,,,,,,,,,,,,,,,,
+A0363,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, create [G] showing Mental Damage.",When activated (subject: this) [may]: Create [Green] showing Mental Damage
+A0363,1,,2022,Create dice,,,,,,,,1,,Green,,showing Mental Damage,,,,,,,,,,,,,,,,,,,,
+A0364,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Event effect: You may remove a Shield from any object. Choose one: - Deal 4 damage to a support character, or - Deal 4 damage to a support structure"
+A0364,1,,2016,Remove Shield,may,,,,1,,any object,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0364,2,then,4004,Choose,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0364,2.1,,2007,Damage,,,,,1,,a support character,4,,,,,,,,,,,,,,,,,,,,,,,,
+A0364,2.2,or,2007,Damage,,,,,1,,a support structure,4,,,,,,,,,,,,,,,,,,,,,,,,
+A0365,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Event effect: You may deal 1 damage to each character. Create an exhausted basic locale token
+A0365,1,,2007,Damage,may,,,,,,each character,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0365,2,then,2029,Create token,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,basic locale,exhausted,,
+A0366,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Event effect: Put a [Purple] Counter on any character you control. You may put a [White] Counter on any Eidolon or support character you control
+A0366,1,,2017,Put counters,,,,,1,,any character you control,1,,Purple,,,,,,,,,,,,,,,,,,,,,,
+A0366,2,then,2017,Put counters,may,,,,1,,any Eidolon or support character you control,1,,White,,,,,,,,,,,,,,,,,,,,,,
+A0367,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - Draw 3.,Arrival (subject: this) [may]: Draw 3
+A0367,1,,2001,Draw,,,,you,,,,3,,,,,,,,,,,,,,,,,,,,,,,,
+A0368,0,,1018,Whenever tactical reroll,may,,,you,,,,,,,,,,,,,,,,,,,,,,,,,,,"Whenever you take a Tactical Reroll action, you may reroll one dice an opponent controls.",Whenever tactical reroll (by: you) [may]: Reroll up to 1 dice an opponent controls
+A0368,1,,2023,Reroll,,,,,1,,,,,,,,,,an opponent's,,,,,,,,,,,,,,,,,
+A0369,0,,1008,Whenever activates,may,,an object,an opponent,,,,,,,,,,,,,,,,,,,,,,,,,,,"Whenever an opponent activates an object, you may Shock this to Sabotage one dice that object rolled showing Damage.","Whenever activates (subject: an object, by: an opponent) [may]: Shock this to Sabotage up to 1 dice showing Damage"
+A0369,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0369,1.1,cost,2012,Shock,,,,,,,this,,,,,,,,,,,,,,,,,,,,,,,,,
+A0369,1.2,then,2006,Sabotage,,,,,,,,1,,,,showing Damage,,it,,,,,,,,,,,,,,,,,,
+A0370,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - create a Neophyte token.,Arrival (subject: this) [may]: Create a Neophyte token
+A0370,1,,2029,Create token,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,Neophyte,,,
+A0371,0,,1017,Whenever digs in,may,,,you,,,,,,,,,,,,,,,,,,,,,,,,,,,"Whenever you Dig In, Heal 1.",Whenever digs in (by: you) [may]: Heal 1
+A0371,1,,2004,Heal,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0372,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Event effect: Draw 4. Discard any number of cards, then you may deal that much damage to any number of support characters"
+A0372,1,,2001,Draw,,,,you,,,,4,,,,,,,,,,,,,,,,,,,,,,,,
+A0372,2,then,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0372,2.1,cost,2030,Discard,,,,,any number,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0372,2.2,then,2007,Damage,may,,,,any number,exactly 1,support characters,that many,,,,,,,,,,,,,,,,,,,,,,,,
+A0373,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, discard the top card of your deck. Modify X, where X is the total card cost of the discarded card.","When activated (subject: this) [may]: Discard the top card of your deck. Modify X, where X is the discarded card's total card cost"
+A0373,1,,2031,Mill,,,,you,,,,1,,,,,,,your,,,,,,,,,,,,,,,,,
+A0373,2,then,2005,Modify,,,,,,,,X: the discarded card's total card cost,,,,,,,,,,,,,,,,,,,,,,,,
+A0374,0,,7006,Specialized,,,,,,,,,,,,,,,,,,,,,,,,,,,,Rutherford Kuntz,,,,Specialized (hero: Rutherford Kuntz)
+A0375,0,,7035,Instead,may,,,you,,,,,,,,,,,,,,,,,,,,,Transmute,each into [W][W],,,,,"As you would Transmute one or more dice, you may Transmute them each into [W][W] instead","Instead (would: Transmute, instead: each into [W][W], by: you) [may]"
+A0376,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - Transmute up to two dice you control each into [G].,Arrival (subject: this) [may]: Transmute up to 2 dice you control each into Green
+A0376,1,,2026,Transmute,,,,,up to 2,,,,,,,,,,,,Green,,,,,,,,,,,,,,,
+A0377,0,,1007,Whenever plays,may,,an event,you,,,,,,,,,,,,,,,,,,,,,,,,,,,"Whenever you play an event, you may Shock this to Draw 1.","Whenever plays (subject: an event, by: you) [may]: Shock this to Draw 1"
+A0377,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0377,1.1,cost,2012,Shock,,,,,,,this,,,,,,,,,,,,,,,,,,,,,,,,,
+A0377,1.2,then,2001,Draw,,,,you,,,,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0378,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Event effect: Choose two: - Sabotage 3, or - Draw 3, or - Deal 4 damage to a structure, or - Deal 4 damage to any character"
+A0378,1,,4004,Choose,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0378,1.1,,2006,Sabotage,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,
+A0378,1.2,or,2001,Draw,,,,you,,,,3,,,,,,,,,,,,,,,,,,,,,,,,
+A0378,1.3,or,2007,Damage,,,,,1,,a structure,4,,,,,,,,,,,,,,,,,,,,,,,,
+A0378,1.4,or,2007,Damage,,,,,1,,any character,4,,,,,,,,,,,,,,,,,,,,,,,,
+A0379,0,,1007,Whenever plays,may,,an event,you,,,,,,,,,,,,,,,,,,,,,,,,,,,"Whenever you play an event, you may Shock this to put a [B] Counter on any Eidolon or support character you control.","Whenever plays (subject: an event, by: you) [may]: Shock this to Put a [Black] Counter on any Eidolon or support character you control"
+A0379,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0379,1.1,cost,2012,Shock,,,,,,,this,,,,,,,,,,,,,,,,,,,,,,,,,
+A0379,1.2,then,2017,Put counters,,,,,1,,any Eidolon or support character you control,1,,Black,,,,,,,,,,,,,,,,,,,,,,
+A0380,0,,7004,Operate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Operate: Sacrifice a support character
+A0380,1,cost,2013,Sacrifice,,,,,1,,a support character,,,,,,,,,,,,,,,,,,,,,,,,,
+A0381,0,,1006,When discarded,may,,this,anyone,,,,,,,,,,,,anywhere,,,,,,,,,,,,,,,"Whenever this is discarded from anywhere, you may reroll one dice you control.","When discarded (subject: this, by: anyone, from: anywhere) [may]: Reroll up to 1 dice you control"
+A0381,1,,2023,Reroll,,,,,1,,,,,,,,,,your,,,,,,,,,,,,,,,,,
+A0382,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Event effect: Choose one: - Deal 5 damage to a support character, or - Create 2 Neophyte tokens"
+A0382,1,,4004,Choose,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0382,1.1,,2007,Damage,,,,,1,,a support character,5,,,,,,,,,,,,,,,,,,,,,,,,
+A0382,1.2,or,2029,Create token,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,Neophyte,,,
+A0383,0,,1008,Whenever activates,may,,a character,you,,,,,,,,,,,,,,,,,,,,,,,,,,,"Whenever you activate a character, you may Shock this to Modify 1.","Whenever activates (subject: a character, by: you) [may]: Shock this to Modify 1"
+A0383,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0383,1.1,cost,2012,Shock,,,,,,,this,,,,,,,,,,,,,,,,,,,,,,,,,
+A0383,1.2,then,2005,Modify,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0384,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may sacrifice this to Sabotage up to two dice showing Damage.",When activated (subject: this) [may]: Sacrifice this to Sabotage up to 2 dice showing Damage
+A0384,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0384,1.1,cost,2013,Sacrifice,,,,,,,this,,,,,,,,,,,,,,,,,,,,,,,,,
+A0384,1.2,then,2006,Sabotage,,,,,,,,2,,,,showing Damage,,,,,,,,,,,,,,,,,,,,
+A0385,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Event effect: Turn up to 3 dice showing Damage to faces showing Blank
+A0385,1,,2024,Turn,,,,,up to 3,,,,,,,showing Damage,showing Blank,,any player's,,,,,,,,,,,,,,,,,
+A0386,0,,7006,Specialized,,,,,,,,,,,,,,,,,,,,,,,,,,,,Bullo,,,,Specialized (hero: Bullo)
+A0387,0,,1008,Whenever activates,may,,an Eidolon,you,,,,,,,,,,,,,,,,,,,,,,,,,,,"Whenever you activate this or another Eidolon, you may Transmute one dice you control into [R].","Whenever activates (subject: an Eidolon, by: you) [may]: Transmute 1 dice you control each into Red"
+A0387,1,,2026,Transmute,,,,,1,,,,,,,,,,,,Red,,,,,,,,,,,,,,,
+A0388,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Event effect: Draw 1. You may exhaust a support character
+A0388,1,,2001,Draw,,,,you,,,,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0388,2,then,2009,Exhaust,may,,,,1,,a support character,,,,,,,,,,,,,,,,,,,,,,,,,
+A0389,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - you may put a [G] Counter on a support structure you control.,Arrival (subject: this) [may]: Put a [Green] Counter on a support structure you control
+A0389,1,,2017,Put counters,,,,,1,,a support structure you control,1,,Green,,,,,,,,,,,,,,,,,,,,,,
+A0390,0,,1007,Whenever plays,may,works from your discard,a Druid,you,,,,,,,,,,,,,,,,,,,,,,,,,,,"Whenever you play a Druid, you may Suspend this to put a [B] Counter on that Druid.","Whenever plays (subject: a Druid, by: you) [may] [if works from your discard]: Suspend this to Put a [Black] Counter on that card"
+A0390,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0390,1.1,cost,2042,Suspend,,,,,,,this,,,,,,,,,,,,,,,,,,,,,,,,,
+A0390,1.2,then,2017,Put counters,,,,,,,that Druid,1,,Black,,,,,,,,,,,,,,,,,,,,,,
+A0391,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Event effect: Modify 2
+A0391,1,,2005,Modify,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,
+A0392,0,,1005,When discarded from play,may,,a support character you control,anyone,,,,,,,,,,,,,,,,,,,,,,,,,,,"Whenever a support character you control is discarded from play, Modify 1.","When discarded from play (subject: a support character you control, by: anyone) [may]: Modify 1"
+A0392,1,,2005,Modify,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0393,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, create an exhausted basic locale token.",When activated (subject: this) [may]: Create an exhausted basic locale token
+A0393,1,,2029,Create token,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,basic locale,exhausted,,
+A0394,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Event effect: Roll [Blue]. You may deal 2 damage to a mechanical support
+A0394,1,,2021,Roll,,,,,,,,1,,Blue,,,,,,,,,,,,,,,,,,,,,,
+A0394,2,then,2007,Damage,may,,,,1,,a mechanical support,2,,,,,,,,,,,,,,,,,,,,,,,,
+A0395,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - resolve up to three dice as if they showed Physical Damage targeting a support character or support structure.,Arrival (subject: this) [may]: Resolve up to 3 dice as if Physical Damage
+A0395,1,,2025,Resolve as,,,,,up to 3,,a support character or support structure,,,,,,,,,,,Physical Damage,,,,,,,,,,,,,,
+A0396,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Event effect: Deal 2 damage to a support structure
+A0396,1,,2007,Damage,,,,,1,,a support structure,2,,,,,,,,,,,,,,,,,,,,,,,,
+A0397,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may Modify 1 to a face showing Modify.",When activated (subject: this) [may]: Modify 1 to a face showing Modify
+A0397,1,,2005,Modify,,,,,,,,1,,,,,showing Modify,,,,,,,,,,,,,,,,,,,
+A0398,0,,3001,Energy,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,Remove one counter from any object.,2 Energy: Remove one counter from any object
+A0398,1,,2019,Remove counter,,,,,,,,1,counter,,,,,,,any object,,,,,,,,,,,,,,,,
+A0399,0,,1016,Whenever damage targets,may,,this,an opponent,,,,,,,,,,,,,,,,,,,,,,,,,,,"Whenever an opponent resolves Damage targeting this, you may resolve one dice not showing Damage.","Whenever damage targets (subject: this, by: an opponent) [may]: Resolve 1 dice not showing Damage"
+A0399,1,,2025,Resolve as,,,,,1,,,,,,,not showing Damage,,,,,,,,,,,,,,,,,,,,
+A0400,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may return an attachment you control to its owner's hand to roll [Y].",When activated (subject: this) [may]: Return an attachment you control to its owner's hand to Roll [Yellow]
+A0400,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0400,1.1,cost,2014,Return to hand,,,,,1,,an attachment you control,,,,,,,,,,,,,,,,,,,,,,,,,
+A0400,1.2,then,2021,Roll,,,,,,,,1,,Yellow,,,,,,,,,,,,,,,,,,,,,,
+A0401,0,,3001,Energy,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,Move an attachment attached to this to any character.,2 Energy: Move an attachment attached to this to any character
+A0401,1,,2020,Move attachment,,,,,,,,,,,,,,,,,any character,,,,,,,,,,,,,,,
+A0402,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may Suspend a character card from any discard. If it was in your discard, create a Neophyte token.",When activated (subject: this) [may]: Suspend a character card from any discard. Create a Neophyte token if it was in your discard
+A0402,1,,2042,Suspend,,,,,1,,a character card,,,,,,,,,any discard,,,,,,,,,,,,,,,,
+A0402,2,then,2029,Create token,,it was in your discard,,,,,,1,,,,,,,,,,,,,,,,,,,,,Neophyte,,,
+A0403,0,,3001,Energy,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,Draw 2.,2 Energy: Draw 2
+A0403,1,,2001,Draw,,,,you,,,,2,,,,,,,,,,,,,,,,,,,,,,,,
+A0404,0,,3001,Energy,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,Modify 2.,"1 Energy, discard 2 cards: Modify 2"
+A0404,1,cost,2030,Discard,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0404,2,then,2005,Modify,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,
+A0405,0,,1003,When exhausted,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When exhausted, deal 1 damage to any hero.",When exhausted (subject: this) [may]: Deal 1 damage to any hero
+A0405,1,,2007,Damage,,,,,1,,any hero,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0406,0,,3001,Energy,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,Shield this.,1 Energy: Shield this
+A0406,1,,2003,Shield,,,,,,,this,,,,,,,,,,,,,,,,,,,,,,,,,
+A0407,0,,7001,Swift,,,,,,,,,,,Draw,,,,,,,,,,,,,resolve,,,,,,,,"Swift (action: resolve, symbol: Draw)"
+A0408,0,,3001,Energy,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,"Dig In, then Draw 2.",1 Energy: Dig In. Draw 2
+A0408,1,,2045,Dig In,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0408,2,then,2001,Draw,,,,you,,,,2,,,,,,,,,,,,,,,,,,,,,,,,
+A0409,0,,7020,Extra health,,,,,,,,2,,,,,,,,,,,,,,,attachment or prestige attached to it,,,,,,,,,"Extra health (amount: 2, for each: attachment or prestige attached to it)"
+A0410,0,,3001,Energy,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,Heal 1. (Remove 1 damage from a hero you control.),"1 Energy, sacrifice an object attached to this: Heal 1"
+A0410,1,cost,2013,Sacrifice,,,,,,,this,,,,,,,,,,,,,,,,,,,,,,,attached to this,,
+A0410,2,then,2004,Heal,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0411,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may play a character card from your discard.","When activated (subject: this) [may]: Play a character card from your discard, paying its cost"
+A0411,1,,2041,Play,,,,you,1,,a character card,,,,,,,,,your discard,,,,,,,,,,,,,,,,
+A0412,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may activate any other character you control.",When activated (subject: this) [may]: Activate any other character you control
+A0412,1,,2011,Activate,,,,,1,,any other character you control,,,,,,,,,,,,,,,,,,,,,,,,,
+A0413,0,,1015,Whenever resolves,may,,,you,,,,,,,Mental Damage,,,,,,,,,,,,,,,,,,,,"Whenever you resolve Mental Damage, you may Transmute one dice you control into [U].","Whenever resolves (by: you, symbol: Mental Damage) [may]: Transmute 1 dice you control each into Blue"
+A0413,1,,2026,Transmute,,,,,1,,,,,,,,,,,,Blue,,,,,,,,,,,,,,,
+A0414,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Event effect: Choose one: - Sabotage up to 1 dice not showing Damage, or - Remove a Shield from a support object"
+A0414,1,,4004,Choose,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0414,1.1,,2006,Sabotage,,,,,,,,1,,,,not showing Damage,,,,,,,,,,,,,,,,,,,,
+A0414,1.2,or,2016,Remove Shield,,,,,1,,a support object,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0415,0,,1005,When discarded from play,may,,this,anyone,,,,,,,,,,,,,,,,,,,,,,,,,,,"When this is discarded from play, you may put a [R] Counter on any character or support structure.","When discarded from play (subject: this, by: anyone) [may]: Put a [Red] Counter on any character or support structure"
+A0415,1,,2017,Put counters,,,,,1,,any character or support structure,1,,Red,,,,,,,,,,,,,,,,,,,,,,
+A0416,0,,3001,Energy,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,Sacrifice a support character.,1 Energy: Sacrifice a support character
+A0416,1,,2013,Sacrifice,,,,,1,,a support character,,,,,,,,,,,,,,,,,,,,,,,,,
+A0417,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may activate another character you control, then you may reroll any dice that character rolled.",When activated (subject: this) [may]: Activate another character you control. You may reroll any number of dice you control that it rolled
+A0417,1,,2011,Activate,,,,,1,,another character you control,,,,,,,,,,,,,,,,,,,,,,,,,
+A0417,2,then,2023,Reroll,may,,,,any number,,,,,,,,,it,your,,,,,,,,,,,,,,,,,
+A0418,0,,7009,Costs less,,,,,,,a character card,,,,,,,,,,,,,,,(1),,suspend,,,,,,,(1) less for each you Suspend from your discard as you play this: a character card,"Costs less (cost: (1), action: suspend, target: a character card)"
+A0419,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Event effect: Choose one or both: - Sabotage 1, or - Create a Neophyte token"
+A0419,1,,4004,Choose,,,,,1 to 2,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0419,1.1,,2006,Sabotage,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0419,1.2,or,2029,Create token,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,Neophyte,,,
+A0420,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may sacrifice a support character to put a [P] Counter on any character you control.",When activated (subject: this) [may]: Sacrifice a support character to Put a [Purple] Counter on any character you control
+A0420,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0420,1.1,cost,2013,Sacrifice,,,,,1,,a support character,,,,,,,,,,,,,,,,,,,,,,,,,
+A0420,1.2,then,2017,Put counters,,,,,1,,any character you control,1,,Purple,,,,,,,,,,,,,,,,,,,,chosen as it happens,,
+A0421,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may sacrifice this to Suspend each card from any player's discard.",When activated (subject: this) [may]: Sacrifice this to Suspend each card from any discard
+A0421,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0421,1.1,cost,2013,Sacrifice,,,,,,,this,,,,,,,,,,,,,,,,,,,,,,,,,
+A0421,1.2,then,2042,Suspend,,,,,each,,,,,,,,,,,any discard,,,,,,,,,,,,,,,,
+A0422,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - you may Suspend up to five character cards from your discard to Draw 1 for each.,Arrival (subject: this) [may]: Suspend up to 5 character cards from your discard to Draw that many
+A0422,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0422,1.1,cost,2042,Suspend,,,,,up to 5,,character cards,,,,,,,,,your discard,,,,,,,,,,,,,,,,
+A0422,1.2,then,2001,Draw,,,,you,,,,that many,,,,,,,,,,,,,,,,,,,,,,,,
+A0423,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - create two Neophyte tokens.,Arrival (subject: this) [may]: Create 2 Neophyte tokens
+A0423,1,,2029,Create token,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,Neophyte,,,
+A0424,0,,7006,Specialized,,,,,,,,,,,,,,,,,,,,,,,,,,,,Lucca Alson,,,,Specialized (hero: Lucca Alson)
+A0425,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Event effect: Heal X, where X is the total card cost of an attachment you control. Put it on the bottom of its owner's deck"
+A0425,1,,2004,Heal,,,,,1,,an attachment you control,X: the target's total card cost,,,,,,,,,,,,,,,,,,,,,,,,
+A0425,2,then,2015,Put on deck,,,,,,,it,,,,,,,,,,shuffle,,,,,,,,,,,,,,,
+A0426,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Event effect: Choose one: - Suspend a support character, or - Suspend a support attachment"
+A0426,1,,4004,Choose,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0426,1.1,,2042,Suspend,,,,,1,,a support character,,,,,,,,,play,,,,,,,,,,,,,,,,
+A0426,1.2,or,2042,Suspend,,,,,1,,a support attachment,,,,,,,,,play,,,,,,,,,,,,,,,,
+A0427,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Event effect: Play up to 2 character cards from your discard with this paying (U) towards each
+A0427,1,,2041,Play,,,,you,up to 2,,character cards,,,,,,,,,your discard,,,,(U),,,,,,,,,,,,
+A0428,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - you may deal 1 damage to any character.,Arrival (subject: this) [may]: Deal 1 damage to any character
+A0428,1,,2007,Damage,,,,,1,,any character,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0429,0,,1007,Whenever plays,may,,an attachment,you,,,,,,,,,,,,,,,,,,,,,,,,,,,"Whenever you play an attachment, Draw 1.","Whenever plays (subject: an attachment, by: you) [may]: Draw 1"
+A0429,1,,2001,Draw,,,,you,,,,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0430,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Event effect: Choose one: - Deal 5 damage to an ethereal support, or - Remove all counters from any object"
+A0430,1,,4004,Choose,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0430,1.1,,2007,Damage,,,,,1,,an ethereal support,5,,,,,,,,,,,,,,,,,,,,,,,,
+A0430,1.2,or,2019,Remove counter,,,,,,,,all,counter,,,,,,,any object,,,,,,,,,,,,,,,,
+A0431,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Arrival - look at the top two cards of your deck. You may put one of them into your hand, then discard the rest.","Arrival (subject: this) [may]: Look at the top 2 cards of your deck, put up to one of them into your hand, then discard the rest"
+A0431,1,,2032,Dig,,,,,up to 1,,,2,,,,,,,your,,hand,,,,discard,,,,,,,,,,,
+A0432,0,,7004,Operate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Operate: Discard the top 2 cards of your deck
+A0432,1,cost,2031,Mill,,,,you,,,,2,,,,,,,your,,,,,,,,,,,,,,,,,
+A0433,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Event effect: Deal 3 damage to an organic support
+A0433,1,,2007,Damage,,,,,1,,an organic support,3,,,,,,,,,,,,,,,,,,,,,,,,
+A0434,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - you may destroy an organic support.,Arrival (subject: this) [may]: Destroy an organic support
+A0434,1,,2008,Destroy,,,,,1,,an organic support,,,,,,,,,,,,,,,,,,,,,,,,,
+A0435,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, turn up to two dice showing Damage to faces showing Blank.",When activated (subject: this) [may]: Turn up to 2 dice showing Damage to faces showing Blank
+A0435,1,,2024,Turn,,,,,up to 2,,,,,,,showing Damage,showing Blank,,any player's,,,,,,,,,,,,,,,,,
+A0436,0,,7006,Specialized,,,,,,,,,,,,,,,,,,,,,,,,,,,,Nina Tullus,,,,Specialized (hero: Nina Tullus)
+A0437,0,,1010,Whenever attaches,may,,this,you,,,,,,,,,,,,,,,,,,,,,,,,,,,"Whenever you attach a card to this, Modify 2.","Whenever attaches (subject: this, by: you) [may]: Modify 2"
+A0437,1,,2005,Modify,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,
+A0438,0,,1008,Whenever activates,may,,a structure with an Operate cost,you,,,,,,,,,,,,,,,,,,,,,,,,,,,"Whenever you activate a structure with an Operate cost, you may Transmute one dice you control into [P].","Whenever activates (subject: a structure with an Operate cost, by: you) [may]: Transmute 1 dice you control each into Purple"
+A0438,1,,2026,Transmute,,,,,1,,,,,,,,,,,,Purple,,,,,,,,,,,,,,,
+A0439,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Event effect: Remove one counter from any object
+A0439,1,,2019,Remove counter,,,,,,,,1,counter,,,,,,,any object,,,,,,,,,,,,,,,,
+A0440,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - you may Suspend a character card from any discard to create a Neophyte token.,Arrival (subject: this) [may]: Suspend a character card from any discard to Create a Neophyte token
+A0440,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0440,1.1,cost,2042,Suspend,,,,,1,,a character card,,,,,,,,,any discard,,,,,,,,,,,,,,,,
+A0440,1.2,then,2029,Create token,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,Neophyte,,,
+A0441,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may sacrifice a support character to ready this.",When activated (subject: this) [may]: Sacrifice a support character to Ready this
+A0441,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0441,1.1,cost,2013,Sacrifice,,,,,1,,a support character,,,,,,,,,,,,,,,,,,,,,,,,,
+A0441,1.2,then,2010,Ready,,,,,,,this,,,,,,,,,,,,,,,,,,,,,,,,,
+A0442,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - create an exhausted basic locale token.,Arrival (subject: this) [may]: Create an exhausted basic locale token
+A0442,1,,2029,Create token,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,basic locale,exhausted,,
+A0443,0,,1021,End of logistics,may,works while Suspended,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"At the end of each Logistics phase, you may discard a card to play this for free.",End of logistics [may] [if works while Suspended]: Discard 1 card to Play this for free
+A0443,1,,4005,Cost then effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0443,1.1,cost,2030,Discard,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A0443,1.2,then,2041,Play,,,,you,1,,this,,,,,,,,,,,,,,,,,,,,,,,free,,
+A0444,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may Transmute one dice into [R].",When activated (subject: this) [may]: Transmute 1 dice you control each into Red
+A0444,1,,2026,Transmute,,,,,1,,,,,,,,,,,,Red,,,,,,,,,,,,,,,
+A0445,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - choose a card type. You may Suspend each card of the chosen type from all discards.,Arrival (subject: this) [may]: You may suspend each card of a chosen type from all discards
+A0445,1,,2042,Suspend,may,,,,each of a chosen type,,,,,,,,,,,all discards,,,,,,,,,,,,,,,,
+A0446,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Event effect: Resolve 1 dice as if Mental Damage
+A0446,1,,2025,Resolve as,,,,,1,,any character,,,,,,,,,,,Mental Damage,,,,,,,,,,,,,,
+A0447,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Event effect: Put a [Green] Counter on any character you control
+A0447,1,,2017,Put counters,,,,,1,,any character you control,1,,Green,,,,,,,,,,,,,,,,,,,,,,
+A0448,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - reroll any one dice.,Arrival (subject: this) [may]: Reroll up to 1 dice
+A0448,1,,2023,Reroll,,,,,1,,,,,,,,,,any player's,,,,,,,,,,,,,,,,,
+A0449,0,,1004,When sacrificed,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When this is sacrificed, roll [B].",When sacrificed (subject: this) [may]: Roll [Black]
+A0449,1,,2021,Roll,,,,,,,,1,,Black,,,,,,,,,,,,,,,,,,,,,,
+A0450,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,Arrival - roll [R].,Arrival (subject: this) [may]: Roll [Red]
+A0450,1,,2021,Roll,,,,,,,,1,,Red,,,,,,,,,,,,,,,,,,,,,,
+A0451,0,,1002,When activated,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,"When activated, you may sacrifice any number of Components.",When activated (subject: this) [may]: Sacrifice any number of Components
+A0451,1,,2013,Sacrifice,,,,,any number,,Components,,,,,,,,,,,,,,,,,,,,,,,,,
+A0651,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Event effect: Deal 4 damage to a support character
+A0651,1,,2007,Damage,,,,,1,,a support character,4,,,,,,,,,,,,,,,,,,,,,,,,
+A0652,0,,1022,Event effect,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Event effect: Modify 1
+A0652,1,,2005,Modify,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,
+A0653,0,,1001,Arrival,may,,this,,,,,,,,,,,,,,,,,,,,,,,,,,,,You may remove one Shield from any object.,Arrival (subject: this) [may]: Remove a Shield from any character you control
+A0653,1,,2016,Remove Shield,,,,,1,,any object,1,,,,,,,,,,,,,,,,,,,,,,chosen as it happens,,

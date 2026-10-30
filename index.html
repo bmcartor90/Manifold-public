@@ -1,19 +1,73 @@
 <!DOCTYPE html>
+<!-- The web tutorial's page (Unity's Web build template "Manifold", chosen by Assets/Editor/Builds.cs): the game fills
+     the window, so it fits whatever frame shows it (the iframe on MountBakerGames.com), with Manifold's own loading
+     screen while Unity loads. Unity fills in the names in triple braces and the #if blocks when it builds; nothing else
+     here may use triple braces, even in a comment (Unity reads every one as code). -->
 <html lang="en-us">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manifold: learn to play</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes">
+    <title>ManifoldUnity: learn to play</title>
     <style>
-      html, body { margin: 0; height: 100%; background: radial-gradient(ellipse at center, #2a2118 0%, #16120d 70%); }
-      body { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 24px;
-        font-family: "Trebuchet MS", "Segoe UI", sans-serif; color: #c9b98f; }
-      img { width: min(60vw, 560px); height: auto; }
-      p { font-size: 17px; letter-spacing: 0.04em; margin: 0; }
+      html, body { margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden; background: #16120d; }
+      #unity-canvas { display: block; width: 100%; height: 100%; background: #16120d; outline: none; }
+      #loading {
+        position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center;
+        gap: 28px; background: radial-gradient(ellipse at center, #2a2118 0%, #16120d 70%);
+        font-family: "Trebuchet MS", "Segoe UI", sans-serif; color: #c9b98f;
+      }
+      #loading img { width: min(60vw, 560px); height: auto; }
+      #bar { width: min(50vw, 420px); height: 10px; border: 1px solid #8a7140; border-radius: 6px; background: #0e0b08; overflow: hidden; }
+      #fill { width: 0; height: 100%; background: linear-gradient(90deg, #a8822e, #e2bd5a); transition: width 0.2s; }
+      #message { font-size: 15px; letter-spacing: 0.04em; text-align: center; max-width: 80vw; }
     </style>
   </head>
   <body>
-    <img src="logo.png" alt="Manifold">
-    <p>The tutorial is on its way.</p>
+    <canvas id="unity-canvas" tabindex="-1"></canvas>
+    <div id="loading">
+      <img src="logo.png" alt="Manifold">
+      <div id="bar"><div id="fill"></div></div>
+      <div id="message">Loading...</div>
+    </div>
+    <script>
+      var canvas = document.querySelector("#unity-canvas");
+      var loading = document.querySelector("#loading");
+      var fill = document.querySelector("#fill");
+      var message = document.querySelector("#message");
+      var config = {
+        arguments: [],
+        dataUrl: "Build/e3fc843a67f7d49286f68744fd7a67da.data.unityweb",
+        frameworkUrl: "Build/61a47be35a811211548804e31ed350ed.framework.js.unityweb",
+        codeUrl: "Build/f86e7755ce96df6ec93421e37dbe806f.wasm.unityweb",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "DefaultCompany",
+        productName: "ManifoldUnity",
+        productVersion: "1.0",
+        // Problems go on the loading screen, never in a pop-up (it's inside someone's web page)
+        showBanner: function (text, type) {
+          if (type === "error") {
+            message.textContent = text;
+          }
+        },
+      };
+      var script = document.createElement("script");
+      script.src = "Build/fecd2edcf511676a9a6be04a28002e0f.loader.js";
+      script.onload = function () {
+        createUnityInstance(canvas, config, function (progress) {
+          fill.style.width = (100 * progress) + "%";
+        }).then(function () {
+          loading.remove();
+          canvas.focus(); // keys go to the game
+        }).catch(function (problem) {
+          message.textContent = "Couldn't load the game: " + problem;
+        });
+      };
+      script.onerror = function () {
+        message.textContent = "Couldn't load the game. Try reloading the page.";
+      };
+      document.body.appendChild(script);
+      canvas.addEventListener("pointerdown", function () { canvas.focus(); });
+    </script>
   </body>
 </html>

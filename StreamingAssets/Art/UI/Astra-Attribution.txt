@@ -1,0 +1,66 @@
+MANIFOLD TCG — ORIGINAL ASTRA INTERFACE GRAPHICS
+Designed for the Unity client, October 2026.
+
+These images were created specifically for Manifold's UI. They contain original
+procedural drawing, no third-party assets, no licensed fonts, and no card art.
+They can be edited and shipped as part of the Manifold client.
+
+AstraConsoleSurface.png — subtle dark-metal fill, intentionally translucent.
+AstraConsoleFrame.png — restrained celestial-bronze frame; 28 px nine-slice.
+AstraOptionPlate.png — bevel and transparent steel surface at 384 x 48;
+                       12 px nine-slice for 40–48 px UI controls.
+AstraOptionHover.png — bright edge-only plate, shown on pointer hover.
+AstraOptionSigil.png — separate, aspect-preserving button emblem.
+AstraDivider.png — 384 x 18 thin horizontal decision ornament.
+AstraHealthRing.png — simplified metallic health indicator artwork.
+
+Credits: original procedurally authored interface graphics for Manifold TCG.
+All proprietary art, playmat images, card art and logos remain unchanged.
+
+October 2026 — round and game-log visual refresh:
+AstraRoundPlate.png — original opaque charcoal/bronze round-counter skin,
+                      44 px nine-sliced for the existing animated round plaque.
+AstraLogSurface.png — original dark-metal grain, with faint decorative geometry.
+AstraLogFrame.png — original low-contrast gold/cyan thin frame,
+                    24 px nine-sliced and drawn behind the log text.
+These are generated interface shapes and textures, not replacements for existing
+Rounds/RoundN.png, playmats, dice, or card artwork. The round plaque skin is
+an overlay added at runtime by Ui.cs; all source images remain untouched.
+
+October 2026 — instance-aware option artwork and shared menu styling:
+AstraCardGlyph.png — original 64x64 bronze/cyan generic card symbol.
+AstraDiceGlyph.png — original 64x64 bronze/cyan generic dice symbol.
+
+These two original fallback symbols are used only when a decision does not
+identify an exact card printing or dice face visible in the current GameView.
+Known cards and dice use their original StreamingAssets artwork instead.
+The console, deck builder, setup and main menu now share the same existing
+Astra option surfaces, hover edges, and restrained large-window frame.
+No card pictures, alternate printing artworks, playmats or game logos are
+altered or copied into the UI-assets folder.
+
+
+October 2026 — interface readability and conditions:
+AstraConsoleFrame.png — replacement original higher-contrast bronze/cyan
+                        frame with thicker lines for smaller displays.
+AstraShieldPortrait.png / AstraShieldWide.png — transparent original azure
+                        protective ward borders, distinct from the original
+                        gameplay Shield counter icon (retained in the UI).
+AstraShockPortrait.png / AstraShockWide.png — transparent original purple
+                        arc-light borders; the gameplay Shock stamp still
+                        obscures the rules text as designed.
+The standard card artwork files and locale/dice tokens are never modified.
+
+October 2026 — transparent round plaque and refined gameplay conditions:
+AstraRoundPlate.png — original gold six-sided plaque with genuine transparent
+                      pixels outside its silhouette. The obsolete RoundN plate
+                      underlay is disabled by Ui.cs while alpha fades continue.
+AstraShieldPortrait.png / AstraShieldWide.png — original open, glassy cyan
+                      energy arcs; no opaque border or filled rectangle.
+AstraShockPortrait.png / AstraShockWide.png — original fragmented violet
+                      electrical filaments. The original Shock symbol still
+                      hides text, as intended by the game rules.
+The original Shield icon is retained and moved into the unrotated top-left
+card slot, after the health badge, to cover the set symbol when exhausted.
+The health value retains its existing colors and is framed by AstraHealthRing.
+The redundant full rectangular log frame is no longer drawn.

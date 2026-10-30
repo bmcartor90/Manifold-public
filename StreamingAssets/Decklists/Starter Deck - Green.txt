@@ -1,0 +1,14 @@
+# Starter Deck - Green (Brad): a first game's deck. Not legal on purpose: 21 hero points and 21 cards.
+Heroes:
+Vikus Martell, Oasis Surveyor
+Deck:
+3 Burn it Down
+2 Deployed Guardian
+2 Echoes of Kujo (SD001)
+2 Federation Contingent
+2 Field Geologist
+2 Magical Relic
+2 Oasis Liaison
+2 Staff of Striking Earth (SD001)
+2 Surface Mapper
+2 Thresher Drone

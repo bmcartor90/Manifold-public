@@ -1,0 +1,45 @@
+The game's sounds. Each file is named for the moment it plays; a missing file is silent.
+Chosen by Brad (October 2026). Trimmed and leveled for the game.
+
+From Kenney (www.kenney.nl), released under Creative Commons Zero (CC0): free to use, credit appreciated.
+  Interface Sounds: back, click, confirm, dig-in (drop_004), modify (pluck_001),
+                    not-allowed (error_004), sabotage (scratch_001), shock (glitch_001), tutorial-note and
+                    your-turn (pluck_002), victory (confirmation_002), warning (question_002)
+  Casino Audio:     activate (card-shove-1), play (card-place-2), draw (card-slide-4),
+                    locale-made (chip-lay-3), pay (chip-lay-1), rend (card-shove-2), resolve (chips-handle-3),
+                    roll (dice-throw-3), roll-one (die-throw-4), shuffle (card-fan-2)
+  Sci-fi Sounds:    defeat (lowFrequency_explosion_000), energy (laserSmall_000),
+                    hero-defeated (lowFrequency_explosion_001)
+  Impact Sounds:    damage-mechanical (impactPlate_medium_000), damage (impactPunch_medium_000: formless things),
+                    shield-break (impactGlass_medium_000)
+
+From Freesound (freesound.org), Creative Commons 0:
+  shield-up: 6.4 to 8.8 seconds, sped up to 1.5 seconds at the same pitch, of "Hitting a Pipe with a Hammer" by brittmosel -- https://freesound.org/s/530216/ -- License: Creative Commons 0
+  attach: "variado_iterado-riser-agua-robotica" by Patitodilluvio_ -- https://freesound.org/s/752324/ -- License: Creative Commons 0
+  play-organic (an organic character is played): 1 to 2 seconds of "Man breathing regularly then faster" by exe2be -- https://freesound.org/s/512741/ -- License: Creative Commons 0
+  damage-ethereal: 1.7 to 2.6 seconds of "Curtains" by DapperDaniel -- https://freesound.org/s/180687/ -- License: Creative Commons 0
+  damage-organic: 1 to 1.9 seconds of "BreathKnockedOut" by JadeW40 -- https://freesound.org/s/869084/ -- License: Creative Commons 0
+  destroyed: "8Bit Explosion" by Duskbreaker -- https://freesound.org/s/641486/ -- License: Creative Commons 0
+
+No sound yet (add <name>.ogg here to give one): new-round, ready. (clock-low isn't wired up yet.)
+
+
+MANIFOLD ORIGINAL AUDIO RE-SCORE — 2026-10-26
+All 36 <cue>.wav files are newly generated, original procedural sound effects
+produced specifically for the Manifold Unity interface. They do not reproduce,
+sample, remix or incorporate the original Kenney or Freesound recordings.
+
+The new mono 32,000 Hz / 16-bit PCM WAV cues are short and peak-normalized:
+- Interface: click, back, confirm, warning, not-allowed, your-turn, tutorial-note
+- Turn: new-round, ready
+- Cards: play, play-organic, draw, shuffle, activate, attach
+- Dice and locales: roll-one, roll, resolve, locale-made, pay
+- Magic and abilities: energy, modify, sabotage, rend, shield-up, shield-break, shock, dig-in
+- Impact: damage, damage-mechanical, damage-organic, damage-ethereal, destroyed, hero-defeated
+- Outcome: victory, defeat
+
+The existing *.ogg recordings selected earlier remain intact and licensed as
+listed above. Sounds.cs loads these originals first, then the optional original
+*.wav files; if one is deleted or cannot load the corresponding .ogg still plays.
+These files require no third-party attribution. All artwork and sound effects
+are confined to the private game repository.
