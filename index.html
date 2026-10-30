@@ -37,9 +37,9 @@
       var message = document.querySelector("#message");
       var config = {
         arguments: [],
-        dataUrl: "Build/e3fc843a67f7d49286f68744fd7a67da.data.unityweb",
+        dataUrl: "Build/7357ccdbeae607bab3893b57f225e674.data.unityweb",
         frameworkUrl: "Build/61a47be35a811211548804e31ed350ed.framework.js.unityweb",
-        codeUrl: "Build/f86e7755ce96df6ec93421e37dbe806f.wasm.unityweb",
+        codeUrl: "Build/66431f07e20d0fbbf6d862c35eb36089.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "ManifoldUnity",
@@ -51,8 +51,10 @@
           }
         },
       };
+      // Opened from a folder (file://), a browser won't let the game load its own files: say so, rather than "Script error."
+      var fromFolder = location.protocol === "file:";
       var script = document.createElement("script");
-      script.src = "Build/fecd2edcf511676a9a6be04a28002e0f.loader.js";
+      script.src = "Build/cbdcf06dbbdf373c08fc5776d2af5349.loader.js";
       script.onload = function () {
         createUnityInstance(canvas, config, function (progress) {
           fill.style.width = (100 * progress) + "%";
@@ -60,7 +62,9 @@
           loading.remove();
           canvas.focus(); // keys go to the game
         }).catch(function (problem) {
-          message.textContent = "Couldn't load the game: " + problem;
+          message.textContent = fromFolder
+            ? "This page has to be opened from its web address (a web server), not from a folder on your computer."
+            : "Couldn't load the game: " + problem;
         });
       };
       script.onerror = function () {
