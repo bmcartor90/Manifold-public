@@ -1,4 +1,4 @@
-#v 20261030055518
+#v 20261101191135
 Art/Counters/Black.png
 Art/Counters/Blue.png
 Art/Counters/Green.png
@@ -125,6 +125,11 @@ Audio/damage-mechanical.wav
 Audio/damage-organic.wav
 Audio/damage.wav
 Audio/defeat.wav
+Audio/destroyed-mechanical-attachment.wav
+Audio/destroyed-mechanical-structure.wav
+Audio/destroyed-organic-attachment.wav
+Audio/destroyed-organic-character.wav
+Audio/destroyed-organic-structure.wav
 Audio/destroyed.wav
 Audio/dig-in.wav
 Audio/draw.wav
@@ -135,10 +140,14 @@ Audio/modify.wav
 Audio/new-round.wav
 Audio/not-allowed.wav
 Audio/pay.wav
-Audio/play-organic.wav
+Audio/play-organic-character.wav
 Audio/play.wav
 Audio/ready.wav
 Audio/rend.wav
+Audio/resolve-mental-big.wav
+Audio/resolve-mental-small.wav
+Audio/resolve-physical-big.wav
+Audio/resolve-physical-small.wav
 Audio/resolve.wav
 Audio/roll-one.wav
 Audio/roll.wav
@@ -243,5 +252,7 @@ Data/Cards.csv
 Data/Printings.csv
 Decklists/Starter Deck - Green.txt
 Decklists/Starter Deck - Red.txt
+Music/Credits.txt
+Music/call-to-adventure.mp3
 Public.txt
 Version.txt

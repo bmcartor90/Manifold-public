@@ -21,6 +21,8 @@ October 2026 — round and game-log visual refresh:
 AstraRoundPlate.png — original opaque charcoal/bronze round-counter skin,
                       44 px nine-sliced for the existing animated round plaque.
 AstraLogSurface.png — original dark-metal grain, with faint decorative geometry.
+                      (2026-10-31, Brad: its circle painted out; the ruled lines and the two
+                      upright lines stay.)
 AstraLogFrame.png — original low-contrast gold/cyan thin frame,
                     24 px nine-sliced and drawn behind the log text.
 These are generated interface shapes and textures, not replacements for existing

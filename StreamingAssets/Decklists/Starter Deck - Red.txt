@@ -3,12 +3,12 @@ Heroes:
 Kiera Ojhey, Cenetal Premier
 Deck:
 2 Astire Marshal
-2 Concussive Blast (SD001)
-2 Federation Blaster (SD001)
+2 Concussive Blast
+2 Federation Blaster
 3 Fire at Will
 2 Gruff Bodyguard
 2 Hired Mercenary
 2 Militia Veteran
-2 Sentry Drone (SD001)
+2 Sentry Drone
 2 Supply Coordinator
 2 Take Aim

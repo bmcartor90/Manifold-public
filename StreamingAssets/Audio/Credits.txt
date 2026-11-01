@@ -1,4 +1,5 @@
-The game's sounds. Each file is named for the moment it plays; a missing file is silent.
+The game's sounds. Each file is named for the moment it plays; a missing file is silent. (The music and its credits:
+the Music folder, Credits.txt.)
 Chosen by Brad (October 2026). Trimmed and leveled for the game.
 
 From Kenney (www.kenney.nl), released under Creative Commons Zero (CC0): free to use, credit appreciated.
@@ -16,12 +17,31 @@ From Kenney (www.kenney.nl), released under Creative Commons Zero (CC0): free to
 From Freesound (freesound.org), Creative Commons 0:
   shield-up: 6.4 to 8.8 seconds, sped up to 1.5 seconds at the same pitch, of "Hitting a Pipe with a Hammer" by brittmosel -- https://freesound.org/s/530216/ -- License: Creative Commons 0
   attach: "variado_iterado-riser-agua-robotica" by Patitodilluvio_ -- https://freesound.org/s/752324/ -- License: Creative Commons 0
-  play-organic (an organic character is played): 1 to 2 seconds of "Man breathing regularly then faster" by exe2be -- https://freesound.org/s/512741/ -- License: Creative Commons 0
+  play-organic-character (an organic character is played; it was play-organic): 1 to 2 seconds of "Man breathing regularly then faster" by exe2be -- https://freesound.org/s/512741/ -- License: Creative Commons 0
   damage-ethereal: 1.7 to 2.6 seconds of "Curtains" by DapperDaniel -- https://freesound.org/s/180687/ -- License: Creative Commons 0
   damage-organic: 1 to 1.9 seconds of "BreathKnockedOut" by JadeW40 -- https://freesound.org/s/869084/ -- License: Creative Commons 0
   destroyed: "8Bit Explosion" by Duskbreaker -- https://freesound.org/s/641486/ -- License: Creative Commons 0
 
-No sound yet (add <name>.ogg here to give one): new-round, ready. (clock-low isn't wired up yet.)
+From Freesound (freesound.org), Creative Commons 0, chosen by Brad (2026-10-31; his files' names in brackets; their
+Freesound pages weren't recorded: CC0 asks for no credit). Each was trimmed of its silence, faded out and leveled
+(-20 LUFS) for the game:
+  resolve-physical-big (7 or more Physical Damage resolved): the first 2 seconds, faded over the last 0.6 ["FS Resolve Physical Big"]
+  resolve-physical-small (6 or less): the first 0.9 seconds ["FS Resolve Physical Small (edit 0 to .9)"]
+  resolve-mental-big (7 or more Mental Damage): the first 1.3 seconds ["FS Resolve Mental Big (edit 0 to 1.3)"]
+  resolve-mental-small (6 or less) ["FS Resolve Mental Small"]
+  destroyed-organic-character ["FS destroy organic character"]
+  destroyed-organic-attachment, destroyed-organic-structure ["FS destroy organic attachment", "... structure": one sound]
+  destroyed-mechanical-attachment, destroyed-mechanical-structure ["fs Destroy mechanical Attachment", "... Structure": one sound]
+
+Bought from Epic Stock Media (2026-10-31), not here: Assets/LicensedAudio (its README.md says why). Those play in
+place of these where both have a cue (shield-up, dig-in, modify, defeat, tutorial-note, warning), except in the web
+tutorial, which has only these.
+
+Each line of the game asks for its most fitting sound, then plainer ones (the engine's SoundCues): a mechanical
+structure played is play-mechanical-structure, else play-mechanical, else play. So a sound added here as
+<moment>-<form>-<type> (or <moment>-<form>) is played from then on, and one taken away gives way to the plainer one.
+
+No sound yet: clock-low (not wired up yet).
 
 
 MANIFOLD ORIGINAL AUDIO RE-SCORE — 2026-10-26
@@ -32,14 +52,13 @@ sample, remix or incorporate the original Kenney or Freesound recordings.
 The new mono 32,000 Hz / 16-bit PCM WAV cues are short and peak-normalized:
 - Interface: click, back, confirm, warning, not-allowed, your-turn, tutorial-note
 - Turn: new-round, ready
-- Cards: play, play-organic, draw, shuffle, activate, attach
+- Cards: play, play-organic (now play-organic-character), draw, shuffle, activate, attach
 - Dice and locales: roll-one, roll, resolve, locale-made, pay
 - Magic and abilities: energy, modify, sabotage, rend, shield-up, shield-break, shock, dig-in
 - Impact: damage, damage-mechanical, damage-organic, damage-ethereal, destroyed, hero-defeated
 - Outcome: victory, defeat
 
 The existing *.ogg recordings selected earlier remain intact and licensed as
-listed above. Sounds.cs loads these originals first, then the optional original
-*.wav files; if one is deleted or cannot load the corresponding .ogg still plays.
+listed above. Sounds.cs plays a cue's .wav when there is one, else its .ogg.
 These files require no third-party attribution. All artwork and sound effects
 are confined to the private game repository.

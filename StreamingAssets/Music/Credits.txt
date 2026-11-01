@@ -1,0 +1,65 @@
+The game's music: scores chosen by Brad (October 2026), all by Kevin MacLeod (incompetech.com).
+Each was trimmed of the silence at its start and end, faded briefly at both ends so it loops cleanly, leveled to the
+same loudness (-18 LUFS) and converted to Ogg Vorbis for the game; the web tutorial's one (Call to Adventure) to MP3
+too, for browsers that can't play Ogg. The game's Settings > About lists the same credits.
+Which plays where: Manifold.Engine/Host/MusicTracks.cs.
+
+"Hiding Your Reality" Kevin MacLeod (incompetech.com)
+Licensed under Creative Commons: By Attribution 4.0 License
+http://creativecommons.org/licenses/by/4.0/
+  hiding-your-reality.ogg: the menus, in turn with Miami Nights
+
+"Call to Adventure" Kevin MacLeod (incompetech.com)
+Licensed under Creative Commons: By Attribution 4.0 License
+http://creativecommons.org/licenses/by/4.0/
+  call-to-adventure.ogg (and .mp3): the tutorial, and everything in the web tutorial
+
+"Jet Fueled Vixen" Kevin MacLeod (incompetech.com)
+Licensed under Creative Commons: By Attribution 4.0 License
+http://creativecommons.org/licenses/by/4.0/
+  jet-fueled-vixen.ogg
+
+"Miami Nights - Extended Theme" Kevin MacLeod (incompetech.com)
+Licensed under Creative Commons: By Attribution 4.0 License
+http://creativecommons.org/licenses/by/4.0/
+  miami-nights-extended-theme.ogg: a Down, and the menus' second song
+
+"Obliteration" Kevin MacLeod (incompetech.com)
+Licensed under Creative Commons: By Attribution 4.0 License
+http://creativecommons.org/licenses/by/4.0/
+  obliteration.ogg
+
+"Nightmare Machine" Kevin MacLeod (incompetech.com)
+Licensed under Creative Commons: By Attribution 4.0 License
+http://creativecommons.org/licenses/by/4.0/
+  nightmare-machine.ogg
+
+"Death and Axes" Kevin MacLeod (incompetech.com)
+Licensed under Creative Commons: By Attribution 4.0 License
+http://creativecommons.org/licenses/by/4.0/
+  death-and-axes.ogg
+
+"Darkling" Kevin MacLeod (incompetech.com)
+Licensed under Creative Commons: By Attribution 4.0 License
+http://creativecommons.org/licenses/by/4.0/
+  darkling.ogg
+
+"Unholy Knight" Kevin MacLeod (incompetech.com)
+Licensed under Creative Commons: By Attribution 4.0 License
+http://creativecommons.org/licenses/by/4.0/
+  unholy-knight.ogg
+
+"Unity" Kevin MacLeod (incompetech.com)
+Licensed under Creative Commons: By Attribution 4.0 License
+http://creativecommons.org/licenses/by/4.0/
+  unity.ogg
+
+"Undaunted" Kevin MacLeod (incompetech.com)
+Licensed under Creative Commons: By Attribution 4.0 License
+http://creativecommons.org/licenses/by/4.0/
+  undaunted.ogg
+
+"Crossing the Chasm" Kevin MacLeod (incompetech.com)
+Licensed under Creative Commons: By Attribution 4.0 License
+http://creativecommons.org/licenses/by/4.0/
+  crossing-the-chasm.ogg
